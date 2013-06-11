@@ -192,6 +192,7 @@
 1 setSpeedMode   !"_agent setSpeedMode \"LIMITED\";" // #11
 1 setText  !_setText  !ctrlSetText
 1 setUnitPos !"_agent setUnitPos "Middle";"  !"_agent setUnitPos \"Middle\";" // #10
+1 setUnitRecoilCoefficient
 1 setVehicleInit  // #138
 1 setVelocity   !"_item setvelocity [0,0,1];" !"player setVelocity [-(_vel select 0),  -(_vel select 1),  0];" !"_agent setvelocity [0, 0, 1];" !"player setVelocity [(velocity player select 0) + 1.5 * sin direction player,"  !"player setVelocity [(velocity player select 0) + 1.5 * sin direction player, (" // #9
 1 setWaypointType  // #137
@@ -224,13 +225,18 @@
 1 weaponsTurret   !"_weapons = _vehicle weaponsTurret _turret;" // #1
 1 worldToModel  !"_x = _pos worldToModel _new;\n_dir = _dir + (if ((_x select 1)==0) then { 0 } els" !"_relPos = _building worldToModel _point;" !"_relPos = _building worldToModel (getPosATL _unit1);" // #0
 /////////////////// Other suspicious patterns:
-1 "foreach tent"
+5 "Admin Fucker"
+5 BigFuckinBullets
+5 ZombieShield
+5 antiAggro_zeds
+5 zeus_star
+5 Metallica
+5 infiSTAR
 1 Myscripts
 1 mapscanrad
 1 mapm
 1 mapopt
 1 "player execVM"
-1 "\"You\""
 1 morphto
 1 _dummyveh
 1 _minimap
@@ -239,8 +245,6 @@
 1 setMarkerTypeLocal !"rsetMarkerPosLocalcode"
 1 mark_player
 1 pathtoscrdir
-1 "player addWeapon \"NVGoggles\";)"
-1 "player distance nukepos"
 1 "reprflcrst"
 1 "RscConfigEditor_Main"
 1 "veh = \"AmmoBoxBig\" createVehicle"
