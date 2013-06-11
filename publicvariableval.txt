@@ -185,7 +185,7 @@
 5 "skipTime"
 5 "taskHint"
 5 "titleCut"
-5 "titleText"
+5 "titleText" !",\"titleText\","
 5 "getM"
 5 "getFSMvariable"
 5 "getG"
