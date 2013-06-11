@@ -33,7 +33,7 @@
 1 createCenter !"createcenter sidelogic" // #186
 1 createDialog !"createDialog 'horde_journal_front_cover';" !"createDialog \"horde_journal_front_cover\";" !"createDialog 'horde_journal_pages_bandits';" !"createDialog 'horde_journal_pages_journal_humanity';" !"createDialog 'horde_journal_pages_headshots';" !"createDialog 'horde_journal_pages_humanity_art';" !"createDialog 'horde_journal_pages_murders';" !"createDialog 'horde_journal_pages_zombies';" !"createDialog \"RscDisplayGenderSelect\";" // #103
 1 createGearDialog   !"createGearDialog [player, \"RscDisplayGear\"];" // #102
-1 createGroup !"_group   	= createGroup west;"  !"BIS_MPF_dummygroup = createGroup sideLogic;"  !"_group   = createGroup west;" // #101
+1 createGroup !"_group 		= createGroup west;"  !"BIS_MPF_dummygroup = createGroup sideLogic;"  !"_group   = createGroup west;" // #101
 1 createMarker !"\"createMarkerLocal\"" !"BIS_GITA_fnc_createMarkers" !"rcreateMarkerLocalcode" !"os \"respawn_west\", _debug] call BIS_fnc_areEqual)) then {" !"_markerstr = createMarkerLocal [\"MaxZeds\", _position]" !"'createMarkerLocal'" !"'createMarkerLocal.sqf'" !"rcreateMarkerLocalcode={diag_log(\"FACO RE(DEL)rcreateMarkerLocalcode args:\"+str(_this));};" // #185
 1 createMenu !"BIS_fnc_createmenu" // #184
 1 createSimpleTask !"rcreateSimpleTaskcode"  !"rcreateSimpleTask = 'createSimpleTask'"  !"createDiaryRecord\",\"createMarkerLocal\",\"createSimpleTask\",\"createTaskSet\",\"debugLog\",\"deleteWP\",\"enablesimulation\",\"endMission\","  !"\"createSimpleTask\","  !"earMagazineCargo\",\"clearWeaponCargo\",\"createDiaryRecord\",\"createMarkerLocal\",\"createSimpleTask\",\"createTaskSet\",\"debugLog\",\"dele"  !"rcreateSimpleTaskcode = compile PreprocessFile (BIS_PathMPscriptCommands + 'createSimpleTask.sqf')" // #100
@@ -127,7 +127,7 @@
 1 markerShape !"setMarkerShape" // #161
 1 mark_player
 1 maut
-1 menu !_menu !gear_ui_offMenu !"\"showCommandingMenu\""
+1 menu !_menu !gear_ui_offMenu !"\"showCommandingMenu\"" !" 'BIS_fnc_commsMenu" !" 'BIS_fnc_createmenu' "
 1 _minimap
 1 modelToWorld  !"_pos = player modeltoWorld [0,1,0];\n\n_item = createVehicle [\"WeaponHolder\", _pos, []" !"_pos modeltoworld [0,_size/2,0]" !"_bsz_pos = _obj modelToWorld _bsz_pos;" !"_cornerLow = _this ModeltoWorld (_boundingBox select 0);" !"_pos = _unit modelToWorld [ sin(_deg) * _trip, cos(_deg) * _trip, 0];" !"_iPos = _obj modelToWorld _x;" // #46
 1 moonIntensity   !"+ moonIntensity" // #45
