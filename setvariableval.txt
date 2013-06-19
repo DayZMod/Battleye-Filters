@@ -394,3 +394,5 @@
 5 "runinitscript"
 5 "createdialog"
 
+1 _this
+
