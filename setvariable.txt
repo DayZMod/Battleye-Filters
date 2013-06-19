@@ -98,7 +98,7 @@
 //1="startcombattimer"
 1="state"
 //1="targets"
-1="temperature"
+//1="temperature"
 1="unconsciousTime"
 1="updatePlayer"
 1="zombieKills"
