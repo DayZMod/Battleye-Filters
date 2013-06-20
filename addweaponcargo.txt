@@ -47,7 +47,7 @@
 5=BAF_L86A2_ACOG
 5=BAF_LRR_scoped
 5=BAF_LRR_scoped_W
-5=Bizon
+// 5=Bizon  // referenced in dayzmod code
 5=G36_C_SD_eotech
 5=G36a
 5=IR_Strobe_Marker
@@ -70,8 +70,8 @@
 5=M249_m145_EP1
 5=M32_EP1
 5=M4A1_Aim_camo
-//5=M4A1_HWS_GL   // 1.7.7 weapon ?
-//5=M4A1_HWS_GL_SD_Camo // 1.7.7 weapon ?
+//5=M4A1_HWS_GL   // referenced in dayzmod code
+//5=M4A1_HWS_GL_SD_Camo // referenced in dayzmod code
 5=M4A1_RCO_GL
 5=M4A3_RCO_GL_EP1
 5=M4SPR
@@ -106,6 +106,8 @@
 5=ksvk
 5=HandGrenade
 5=PMC_AS50_TWS_Large
+5=DMR_DZ
+5=BAF_AS50_scoped_Large
 // Black list of illegal Ammo:
 5="TimeBomb"
 5="Mine"
