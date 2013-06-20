@@ -108,6 +108,7 @@
 1 markerBrush !"setMarkerBrush"
 1 markerShape !"setMarkerShape"
 1 menu !_menu !commandingMenu !createMenu !BIS_fnc_kbMenu !BIS_fnc_commsMenuCreate !BIS_fnc_commsMenuToggleAvailability !BIS_fnc_commsMenuToggleVisibility !BIS_fnc_createmenu  !gear_ui_offMenu !"\"showCommandingMenu\"" !" 'BIS_fnc_commsMenu" !" 'BIS_fnc_createmenu' "
+1 minimap
 1 modelToWorld  !"_pos = player modeltoWorld [0,1,0];\n\n_item = createVehicle [\"WeaponHolder\", _pos, []" !"_pos modeltoworld [0,_size/2,0]" !"_bsz_pos = _obj modelToWorld _bsz_pos;" !"_cornerLow = _this ModeltoWorld (_boundingBox select 0);" !"_pos = _unit modelToWorld [ sin(_deg) * _trip, cos(_deg) * _trip, 0];" !"_iPos = _obj modelToWorld _x;"
 1 moonIntensity   !"+ moonIntensity"
 1 moveTo !moveToFailed !movetocompleted !"_animal moveto _movepos;" !="kbRemoveTopic" !="_unit moveTo _pos" !"_agent moveto  _initpos;"  !"_agent moveTo _targetPos;"  !"_unit moveTo _pos;"  !"_agent moveTo _pos;"  !"_agent moveTo _myDest;"  !"_agent moveTo (getPosATL player);"
@@ -139,7 +140,7 @@
 1 setFog   !"0 setFog _currentFog;"  !"timeUntilCompletion setFog _targetWeatherValue;"
 1 setFuel !"local_setFuel"  !"dayzSetFuel spawn local_setFuel;"  !"local_setFuel =    compile preprocessFileLineNumbers \""
 1 setGroupId !"\"setGroupID\"" !"'setGroupID'" !"'setGroupID.sqf'" !"rsetGroupIDcode" !"rsetGroupIDcode={diag_log(\"FACO RE(DEL)rsetGroupIDcode args:\"+str(_this));};"
-1 setHit !"_unit setVariable [_SVname, 0, true];\n_unit setHit [_selection, 0];" !"_unit setHit [_selection, _ret];\n_log = format[\"%1. setHit[%2,%3]%4\"" !"_unit setVariable [_SVname, 0, true];\n_unit setHit [_selection, 0];\nif (!isServer) then {\nPVDZ_veh_Save" !"_unit setHit [_selection, _dam];" !"object_setHitServer"  !"object_setHit.sqf\""  !"ayer setHit[\"hands\",1];"  !"[player,\"legs\", (_fractures select 0)] call object_setHit;"  !"t setHit[\"legs\",0];"  !"player setHit[\"legs\",1];"
+1 setHit !"_unit setVariable [_SVname, _ret, true];\n_unit setHit [_selection, _ret];\n_log = format[\"%1. setH!t" !"_unit setVariable [_SVname, 0, true];\n_unit setHit [_selection, 0];\nif (!isServer) then {\nPVDZ_veh_Save" !"_unit setHit [_selection, _dam];" !"object_setHitServer"  !"object_setHit.sqf\""  !"ayer setHit[\"hands\",1];"  !"[player,\"legs\", (_fractures select 0)] call object_setHit;"  !"t setHit[\"legs\",0];"  !"player setHit[\"legs\",1];"
 1 setLightAmbient   !"_lightArea setLightAmbient [0.2,0.01,0.01];"  !"_li setLightAmbient[0.8, 0.6, 0.2];"
 1 setLightBrightness   !"_lightArea setLightBrightness 0.2;"  !"_li setLightBrightness 0;"
 1 setMarkerBrush !"setMarkerBrushLocal"
@@ -164,7 +165,7 @@
 1 setText  !_setText  !ctrlSetText
 1 setUnitPos !"_agent setUnitPos "Middle";"  !"_agent setUnitPos \"Middle\";"
 1 setVehicleInit
-1 setVelocity !"if (_velz>1) then {_v setvelocity [velocity _v select 0,velocity _v select 1,0]};" !"if (_velz>1) then {_v setvelocity [_xv/1.3,_yv/1.3,0]}" !"_item setvelocity [0,0,1];" !"player setVelocity [-(_vel select 0),  -(_vel select 1),  0];" !"_agent setvelocity [0, 0, 1];" !"player setVelocity [(velocity player select 0) + 1.5 * sin direction player,"  !"player setVelocity [(velocity player select 0) + 1.5 * sin direction player, ("
+1 setVelocity !"if (_velz>1) then (_v setvelocity [velocity _v select 0,velocity _v select 1,0]);" !"if (_velz>1) then {_v setvelocity [velocity _v select 0,velocity _v select 1,0]};" !"if (_velz>1) then {_v setvelocity [_xv/1.3,_yv/1.3,0]}" !"_item setvelocity [0,0,1];" !"player setVelocity [-(_vel select 0),  -(_vel select 1),  0];" !"_agent setvelocity [0, 0, 1];" !"player setVelocity [(velocity player select 0) + 1.5 * sin direction player,"  !"player setVelocity [(velocity player select 0) + 1.5 * sin direction player, ("
 1 setWaypointType
 1 setWaypointVisible
 1 setWeaponReloadingTime
@@ -194,6 +195,7 @@
 5 zeus_star
 5 Metallica
 5 infiSTAR
+5 pink_wasteland
 1 "_countr ="   !"if (speed _agent < 0.1) then {_countr = _countr + 1} else {_countr = 0};" !"_countr = 0"// #124
 1 _dummyveh
 1 "_lpajd addaction spawnveh1"
