@@ -242,7 +242,8 @@
 5 vehicle_handleInteract
 5 vehicle_handleServerKilled
 1 waypoint
-
+5 "_this"
+5 "isDedicated" 
 
 //////////////////////// GV and functions from DayZ Mod:
 5 actionmonitor
