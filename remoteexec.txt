@@ -1,4 +1,4 @@
-1 "" !="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';" !="spawn BIS_Effects_AirDestruction" !="spawn BIS_Effects_AirDestructionStage2" !="spawn BIS_Effects_Burn" !="[this] spawn BIS_Effects_AirDestruction" !="if((local(_this select 0))or(isServer))then{_this call fnc_plyrHit_local;};" !="if(local(_this select 0))then{_this call fnc_plyrDead_local;};"
+1 "" !="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';" 
 5 draw
 5 hint
 5 create
@@ -16,11 +16,11 @@
 5 group
 5 icon
 5 marker
-5 server !="if((local(_this select 0))or(isServer))then{_this call fnc_plyrHit_local;};"
+5 server 
 5 compile
 5 loadFile
 5 say
-5 call !="if((local(_this select 0))or(isServer))then{_this call fnc_plyrHit_local;};" !="if(local(_this select 0))then{_this call fnc_plyrDead_local;};"
+5 call
 5 move !="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';"
 5 chat
 5 fade
@@ -33,9 +33,9 @@
 5 task
 5 allow !="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';"
 5 enable !="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';"
-1 spawn !="spawn BIS_Effects_AirDestruction" !"spawn BIS_Effects_AirDestructionStage2" !"spawn BIS_Effects_Burn" !="[this] spawn BIS_Effects_AirDestruction"
+1 spawn
 5 for
-1 this !="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';"  !="[this] spawn BIS_Effects_AirDestruction" !"spawn BIS_Effects_AirDestructionStage2" !"spawn BIS_Effects_Burn"
+1 this !="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';" 
 1 format
 5 skip
 5 fail
@@ -52,7 +52,7 @@
 5 trigger
 //5 "dayz_serverObjectMonitor set [count dayz_serverObjectMonitor, _object];" //+2
 1 BIS_Effects //kicking not needed anymore, monitoring only
-1 BIS_ !="BIS_Effects_AirDestruction" !="BIS_Effects_AirDestructionStage2" !="BIS_Effects_Burn" !="[this] spawn BIS_Effects_AirDestruction"
+1 BIS_ 
 5 box
 5 Mine
 5 ARTY_
@@ -128,7 +128,7 @@
 5 }str
 5 'str
 5 "\"str"
-5 str !="[this] spawn BIS_Effects_AirDestruction"  !"spawn BIS_Effects_AirDestructionStage2" 
+5 str 
 5 "	\nstr"
 5 "\nstr"
 5 "str\n"
