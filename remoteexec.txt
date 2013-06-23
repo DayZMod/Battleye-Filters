@@ -33,9 +33,9 @@
 5 task
 5 allow !="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';"
 5 enable !="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';"
-1 spawn
+1 spawn !="[this] spawn BIS_Effects_AirDestruction"
 5 for
-1 this !="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';" 
+1 this !="this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';" !="[this] spawn BIS_Effects_AirDestruction" 
 1 format
 5 skip
 5 fail
@@ -244,10 +244,9 @@
 1 waypoint
 5 "_this"
 5 "isDedicated" 
-
+// "[this] spawn BIS_Effects_AirDestruction"
 //////////////////////// GV and functions from DayZ Mod:
 5 actionmonitor
-5 bis_
 5 building_spawnloot
 5 building_spawnzombies
 5 camp_spawnzombies
