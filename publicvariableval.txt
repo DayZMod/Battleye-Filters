@@ -27,7 +27,7 @@
 1 "action"
 1 "exec" !"execVM" !"execFSM" !"jipexec"
 5 "mission"
-1 "kb" !="FoodCanFrankBeans" !="\"FoodCanFrankBeans\"" !"kbTell" !"kbReact" !"\"FoodCanFrankBeans\""
+1 "kb" !="FoodCanFrankBeans" !="\"FoodCanFrankBeans\"" !"kbTell" !"kbReact" !"\"FoodCanFrankBeans\"" !="ItemBookBible" !="\"ItemBookBible\""
 1 "side"
 1 "show"
 1 "task" !"taskHint"
