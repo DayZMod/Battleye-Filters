@@ -87,6 +87,7 @@
 5 drawIcon
 1 driver !"CPDriver"  !"_targets set [count _targets,  driver _refObj];" !"_targets set [count _targets, driver _refObj];"  !"if ((_speed > _topSpeed) && (alive player) && ((driver (vehicle player) == player) or (isNull (driver (vehicle play"
 1 enableSimulation !="\"enablesimulation\"" !"'enablesimulation.sqf'" !"renablesimulation" !"renablesimulationcode"  !"this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';"  !"dayz_originalPlayer enableSimulation true;"  !"player enableSimulation false;"  !"player enableSimulation true;"
+1 +e00
 1 FirstAidSystem
 1 FunctionsManager
 1 forceSpeed  !"_agent forceSpeed 12;" !"_unit forceSpeed ceil(random(3^0.5)^2)*2;" !"_agent forceSpeed 2;"  !"_unit forceSpeed 2;"  !"_agent forceSpeed 6;"
