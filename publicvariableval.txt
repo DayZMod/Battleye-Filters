@@ -416,4 +416,4 @@
 1 AlternativeInjurySimulation
 1 FunctionsManager
 1 +e00
-5 "[nil,nil,\"per\",<NULL-object>]"
+5 "<NULL - team member>"
