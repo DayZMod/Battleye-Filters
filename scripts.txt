@@ -210,9 +210,11 @@
 1 setSkill   !"_agent setSkill 0;"
 1 setSpeedMode  !"_animal setspeedmode \"FULL\";" !"_animal setspeedmode \"LIMITED\";" !"_agent setSpeedMode \"LIMITED\";"
 1 setText  !_setText  !ctrlSetText
+1 setTerrainGrid
 1 setUnitPos !"_agent setUnitPos "Middle";"  !"_agent setUnitPos \"Middle\";"
 1 setUnitRecoilCoefficient
 5 setVehicleInit
+1 setVehicleAmmo
 1 setVelocity !"_vehicle setvelocity [0,0,1]" !"_v setvelocity [velocity _v select 0,velocity _v select 1,0]);" !"_v setvelocity [_xv/1.3,_yv/1.3,0]}" !"_item setvelocity [0,0,1];" !"_agent setvelocity [0, 0, 1];" !"_agent setvelocity [0,0,1];" !"player setVelocity [(velocity player select 0) + 1.5 * sin direction player, (velocity player select 1) + 1.5 * cos direction player, (velocity player select 2) + 4];" !"player setVelocity [-(_vel select 0),  -(_vel select 1),  0];"
 1 setWaypointType
 1 setWaypointVisible
@@ -223,6 +225,7 @@
 1 spawn_loot !"#line 1 \"z\addons\dayz_code\compile\spawn_loot.sqf\"\n\nprivate [\"_iItem\",\"_iClass\",\"_iPos\",\"_radius\",\"_iPosZ\",\"_item\",\"_itemTypes\"" !"bers \"\z\addons\dayz_code\compile\player_humanityChange.sqf\";\nspawn_loot = compile preprocessFileLineNumbers \"\z\addons\dayz_code" !"_itemType select 0, _itemType select 1 , _iPos, 0.0] call spawn_loot;\n_qty = _qty +1;\n};\n};\nsleep ((random 3) / 1000);\n} else {" !"ompile preprocessFileLineNumbers \"\z\addons\dayz_code\compile\spawn_loot.sqf\";\nplayer_projectileNear = compile preprocessFileLineNu" !"uplicate member %2 from family %3\",\"tmp/dayz_code/compile/spawn_loot.sqf.c\", _canType, _uniq]);};\n\n};\nif (_tQty > 0) then {\n_it"
 1 speedMode !"speed"
 1 supplydropService !"	BIS_fnc_supplydropService = {"
+1 switchCamera !"\"switchCamera\"" !="rswitchCamera = 'switchCamera'" !="rswitchCameracode = compile PreprocessFile (BIS_PathMPscriptCommands + 'switchCamera.sqf')" !="rswitchCameracode={diag_log(\"WARNING illegal RE rswitchCameracode with args:\"+str(_this));};"
 1 teamMember   !"r(group(vehicle _klr));};if((!(isPlayer _klr))AND{(isAgent teamMember _klr)})then{_klr=agent(teamMember _klr);};};if((isPlayer _"
 1 terrainIntersect !"terrainIntersectASL"
 1 terrainIntersectASL !"(!(terrainIntersectASL [_zPos, _eye])"  !"_cantSee = terrainIntersectASL [_tPos, _zPos];"
@@ -304,4 +307,13 @@
 5 "_stuff"
 5 "dayz-injector-menu"
 1 aW5maVNUQVI
+5 Shadowy_NONRE
+5 dayZ_hivePipeAuth
+1 server_hiveReadWrite
+5 "publicVariable \"gprim\""
+1 "compile toString"
+1 " 44"
+1 ",44"
+1 "	44"
+1 "\n44"
 //1 "dayz_" !dayz_spaceInterrupt !"dayZ_everyonesTents" !"dayZ_lastPlayerUpdate" !"dayz_baseTypes" !"dayz_temperaturnormal" !"dayz_playerName" !"dayz_heartBeat" !"dayz_monitorPeriod" !"dayzClickTime" !"dayz_spawnDelay" !"dayz_lootDelay" !"dayz_lootWait" !"dayz_maxCurrentZeds" !"dayz_inVehicle" !"dayz_statusArray" !"dayzGearSave" !"dayz_ZombieBuildings" !"dayz_LootBuildings" !"dayz_losChance" !"dayz_authed" !"dayz_clientPreload" !"dayz_loadScreenMsg" !"dayz_preloadFinished" !"dayz_localswarmSpawned" !"dayz_swarmSpawnZombies" !"dayz_Locations" !"dayz_locationsActive" !"dayz_Trash" !"dayz_lastSave" !"dayz_damageCounter" !"dayz_lowHumanity" !"dayz_canDisconnect" !"dayz_heartBeat" !"dayz_lastCheckBit" !"dayz_CLChances" !"dayz_CLBase" !"dayz_currentDay" !"dayz_panicCooldown" !"dayz_losCheck_attack" !"dayz_losCheck" !"dayz_monitorPeriod" !"DAYZ_woundHit_ok" !"dayz_surfaceNoise" !"DAYZ_woundHit" !"dayz_areaAffect" !"dayz_futurePos" !"Dayz_GUI_R" !"Dayz_GUI_G" !"Dayz_GUI_B" !"dayz_myBackpack" !"dayz_spawnWait" !"dayz_guiHumanity" !"dayz_lastHumanity" !"deathHandled" !"dayz_noPenalty" !"dayz_heavenCooldown" !"dayz_maxMaxWeaponHolders" !"dayz_forceSave" !"dayz_lastCheckSave" !"dayz_resetSelfActions" !"dayz_unsaved" !"dayz_combat" !"dayz_spawnCheck" !"dayz_DeathActioned" !"dayz_track_death_1" !"dayz_locationCheck" !"dayz_firstGroup" !"dayz_gui" !"dayz_medicalH" !"dayz_originalPlayer" !"dayz_disableRespawn" !"dayz_monitor1" !"dayz_animalCheck" !"dayz_slowCheck" !"dayz_musicH" !"dayz_myMagazines" !"dayz_myItems" !"dayz_myWeapons" !"DAYZ_disVisual" !"dayz_myBackpackMags" !"dayz_myBackpackWpns" !"DayZ_loadingScreen" !"DAYZ_disAudial" !"dayz_firedCooldown" !"dayz_versionNo" !"DAYZ: CLIENT IS RUNNING DAYZ_CODE" !"dayz_scaleLight" !"dayz_bodyMonitor" !"dayz_maxAnimals" !"dayz_animalDistance" !"DAYZ_GUI_waiting" !"Dayz_freefall" !"dayz_temperaturmin" !"dayz_inside" !"dayz_sourceBleeding" !"dayz_selectGender" !"dayz_mylastPos" !"'dayz_anim'" !"You are running an incorrect version of DAYZ_CODE, please" !"dayz_canDelete" !"dayz_myLoad" !"dayz_flyMonitor" !"dayz_sunRise" !"DayZ_NewZeds" !"dayz_CurrentZombies" !"dayz_maxLocalZombies" !"dayz_spawnZombies" !"dayz_myPosition" !"dayz_maxGlobalZombies" !"\"dayz_anim\""!"dayz_HintMontior" !"dayz_fpsmonitor" !"dayz_buildingMonitor" !"dayz_cantseefov" !"dayz_safeDistPlr" !"dayz_cantseeDist" !"dayz_CBLBase" !"dayz_maxMaxModels" !"dayz_spawnArea"  !"dayz_CBLChances" !"dayz_lootSpawnBias" !"dayz_myCursorTarget" !"dayz_playerUID" !"dayz_temperaturmax" !"dayz_temperatur" !"dayz_hunger" !"dayz_lastMeal" !"DAYZ_GUI_display" !"dayz_thirst" !"dayz_lastDrink" !"dayz_surfaceType" !"dayz_meleeMagazineCheck" !"dayz_Magazines" !"Dayz_logonTown" !"Dayz_logonTime" !"Dayz_logonDate" !"dayz_Survived" !"dayz_zombieMusic" !"dayz_zombieSpeak" !"dayz_isSwimming" !"dayz_characterID" !"dayz_hasFire" !"dayz_hasLight" !"z\\addons\\dayz_"
