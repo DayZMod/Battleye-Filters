@@ -120,6 +120,7 @@
 // 5="TimeBomb"
 // 5="Mine"
 // 5="MineE"
+// 5="Bo_GBU12_LGB"
 // 5="HandGrenade_Stone"
 // 5="R_SMAW_HEAA"
 // 5="R_SMAW_HEDP"
