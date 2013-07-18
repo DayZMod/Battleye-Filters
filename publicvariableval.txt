@@ -421,6 +421,7 @@
 1 AlternativeInjurySimulation
 1 FunctionsManager
 1 +e00
+<<<<<<< HEAD
 5 createUnit
 5 createGroup
 5 BattleFieldClearance
@@ -428,3 +429,6 @@
 5 FirstAidSystem
 5 AlternativeInjurySimulation
 5 FORM
+=======
+5 "<NULL - team member>"
+>>>>>>> upstream/Release_1.7.7.1
