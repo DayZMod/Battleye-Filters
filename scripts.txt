@@ -12,20 +12,20 @@
 5 "addMagazine \"" !"pawn player_alertZombies;\n\nplayer addMagazine \"ItemWaterbottle\";\n};\n\ncutText [fo" !"in no_output_drink) then {\nplayer addMagazine \"ItemWaterbottleUnfilled\";\n};\n\n[pl" !"r removeMagazine \"Quiver\";\nplayer addMagazine \"WoodenArrow\";\nplayer addMagazine " !"r removeMagazine \"Quiver\";\nplayer addMagazine \"WoodenArrow\";\nplayer " !"r removeMagazine \"Quiver\";\nplayer addMagazine \"WoodenArrow\";\nplayer addMagazine " !"r removeMagazine \"Quiver\";\nplayer addMagazine \"WoodenArrow\";\nplayer addMagazine " !"agazine \"ItemWaterbottle\";\nplayer addMagazine \"ItemWaterbottleBoiled\";\n\n};\ncutTe" !"agazine \"ItemWaterbottle\";\nplayer addMagazine \"ItemWaterbottleUnfilled\";\n_handle" !"azine \"ItemJerrycanEmpty\";\nplayer addMagazine \"ItemJerrycan\";\n};\nfor \"_x\" from 1" !"gazine \"ItemFuelcanEmpty\";\nplayer addMagazine \"ItemFuelcan\";\n};\n};\n\ncutText [for" !"DZ_hlt_Morphine\";\n} else {\nplayer addMagazine \"ItemMorphine\";\nr_interrupt = fals" !"ayer playActionNow \"stop\";\nplayer addMagazine \"ItemBandage\";\n};"
 5 "addMagazine '" !"do {\ncase \"MeleeHatchet\": {player addMagazine 'hatchet_swing';};\ncase \"MeleeCrow" !"bar\": {player addMagazine 'crowbar_swing';};\ncase \"MeleeMach" !"';};\ncase \"MeleeCrowbar\": {player addMagazine 'crowbar_swing';};\ncase \"MeleeMach" !"ete\": {player addMagazine 'Machete_swing';};\n};" !"do {\ncase \"MeleeHatchet\": {player addMagazine 'hatchet_swing';};\ncase \"MeleeCrow" !"bar\": {player addMagazine 'crowbar_swing';};\ncase \"MeleeMach" !"ete\": {player addMagazine 'Machete_swing';};\n};\n\nif (_qty_qu" !"';};\ncase \"MeleeCrowbar\": {player addMagazine 'crowbar_swing';};\ncase \"MeleeMach" !"ete\": {player addMagazine 'Machete_swing';};\n};\n\nif (_qty_qu" !"do {\ncase \"MeleeHatchet\": {player addMagazine 'hatchet_swing';};\ncase \"MeleeCrow" !"bar\": {player addMagazine 'crowbar_swing';};\ncase \"MeleeMach" !"';};\ncase \"MeleeCrowbar\": {player addMagazine 'crowbar_swing';};\ncase \"MeleeMach" !"ete\": {player addMagazine 'Machete_swing';};\n};\n} else {\ncut"
 1 addMagazineCargoGlobal !", [], 0.0, \"CAN_COLLIDE\"];\n_item setPosATL _pos;\n};\n_item addMagazineCargoGlobal [_itemtodrop,1];\n};\n\nif ( _rawfood and (random 15 < 1)) th" !"OLLIDE\"];\n} else {\n_item = _nearByPile select 0;\n};\n_item addMagazineCargoGlobal [_itemtodrop,1];\n_item setvelocity [0,0,1];\n};\n\n\nif ((rand" !"teel\") then { _x = \"WoodenArrow\" }; \ndayz_myBackpack addMagazineCargoGlobal [_x,(_backpackMagQty select _countr)];\n_countr = _co" !"y = _qty - 1;\n_ok = true;\nif (_qty > 0) then {\n_firePlace addMagazineCargoGlobal [\"PartWoodPile\",_qty];\n};\n};\nif (_ok) then {\n_countr = 0;\n" !"\n_objWpnQty = _magazines select 1;\n_countr = 0;\n{\n_holder addmagazinecargoGlobal [_x,(_objWpnQty select _countr)];\n_countr = _countr + 1;\n}" !" _backpackMag select 1;\n};\n_countr = 0;\n{\ndayz_myBackpack addmagazineCargoGlobal [_x,(_backpackmagQtys select _countr)];\n_countr = _countr " !".c\", _canType, _uniq]);};\n\n};\nif (_tQty > 0) then {\n_item addMagazineCargoGlobal [_canType,_tQty];\n_qty = _qty + _tQty;\n};\n};\nif (_iItem !=" !"_magQty = round(random 10);\nif (_magQty > 3) then {\n_item addMagazineCargoGlobal [(_mags select 0), (round(random 1) + 1)];\n};\n};\n};\n};\ncas" !"\"WeaponHolder\", _iPos, [], _radius, \"CAN_COLLIDE\"];\n_item addMagazineCargoGlobal [_iItem,1];\n};\ncase \"object\": {\n\n_item = createVehicle [_i"
-1 "addWeapon" !addWeaponCargo !"\"addWeapon"\" !"raddWeaponcode={diag_log(\"WARNING illegal RE raddWeaponcode with args:\"+str(_this));};" ! "igfile >> \"cfgweapons\" >> (configName _item))) then {_unit addWeapon configName _item;};"  !"tch (_selection) do {\ncase \"CfgWeapons\":\n{\nplayer addWeapon _item;\n};\ncase \"CfgMagazines\":\n{\nplayer addMagazin" !" >> \"CfgWeapons\" >> _x);\nif (_isOK) then {\nplayer addWeapon _x;\n};\n} forEach _wpns;\n\nif (_bcpk != \"\") then {\np" !"tion true;\n0 cutText [\"\", \"BLACK IN\",3];\n\n\nplayer addWeapon \"Loot\";\nplayer addWeapon \"Flare\";\nif ((currentWeap" !"Magazine _x };\n\n} forEach _magazines;\n\n{\n_newUnit addWeapon _x;\n\n} forEach _weapons;\n\n\nif(str(_weapons) != str" !" [_x];\n} forEach (weapons _newUnit);\n\n\n{\n_newUnit addWeapon _x;\n\n} forEach _weapons;\n};\n\nif(_primweapon != (pr" !"imaryWeapon _newUnit)) then {\n_newUnit addWeapon _primweapon;\n};\n\nif(_secweapon != (secondaryWeapon" !" _newUnit) && _secweapon != \"\") then {\n_newUnit addWeapon _secweapon;\n};\n\n\nif (!isNil \"_newBackpackType\") th" !"ec_damageHandle;\nplayer allowDamage true;\n\nplayer addWeapon \"Loot\";\nplayer addWeapon \"Flare\";\n\nsleep 0.1;\n\n_wp" !" >> \"CfgWeapons\" >> _x);\nif (_isOK) then {\nplayer addWeapon _x;\n};\n} forEach _wpns;\n};"
+1 addWeapon !addWeaponCargo !"\"addWeapon\"" !="raddWeapon = 'addWeapon'" !"raddWeaponcode = compile PreprocessFile (BIS_PathMPscriptCommands + 'addWeapon.sqf'" !"raddWeaponcode={diag_log(\"WARNING illegal RE raddWeaponcode with args:\"+str(_this));};" ! "igfile >> \"cfgweapons\" >> (configName _item))) then {_unit addWeapon configName _item;};" !"tch (_selection) do {\ncase \"CfgWeapons\":\n{\nplayer addWeapon _item;\n};\ncase \"CfgMagazines\":\n{\nplayer addMagazin" !" >> \"CfgWeapons\" >> _x);\nif (_isOK) then {\nplayer addWeapon _x;\n};\n} forEach _wpns;\n\nif (_bcpk != \"\") then {\np" !"Magazine _x };\n\n} forEach _magazines;\n\n{\n_newUnit addWeapon _x;\n\n} forEach _weapons;\n\n\nif(str(_weapons) != str" !" [_x];\n} forEach (weapons _newUnit);\n\n\n{\n_newUnit addWeapon _x;\n\n} forEach _weapons;\n};\n\nif(_primweapon != (pr" !"imaryWeapon _newUnit)) then {\n_newUnit addWeapon _primweapon;\n};\n\nif(_secweapon != (secondaryWeapon" !" _newUnit) && _secweapon != \"\") then {\n_newUnit addWeapon _secweapon;\n};\n\n\nif (!isNil \"_newBackpackType\") th" !" >> \"CfgWeapons\" >> _x);\nif (_isOK) then {\nplayer addWeapon _x;\n};\n} forEach _wpns;\n};" !"player addWeapon \"Loot\";" !"player addWeapon \"Flare\";"
 1 addWeaponCargoGlobal !" \"Crossbow\") then { _x = \"Crossbow_DZ\" };\ndayz_myBackpack addWeaponCargoGlobal [_x,(_backpackWpnQtys select _countr)];\n_countr = _countr "!"kpack player;\n\nif (_bcpkWpn != \"\") then {\ndayz_myBackpack addWeaponCargoGlobal [_bcpkWpn,1];\n};\n};\n};\n\n\n_totalMins = _survival select 0;\n"!"0;\n_objWpnQty = _weapons select 1;\n_countr = 0;\n{\n_holder addweaponcargoGlobal [_x,(_objWpnQty select _countr)];\n_countr = _countr + 1;\n}"!" _backpackWpn select 1;\n};\n_countr = 0;\n{\ndayz_myBackpack addWeaponCargoGlobal [_x,(_backpackWpnQtys select _countr)];\n_countr = _countr "!"_qty = _qty + _tQty;\n};\n};\nif (_iItem != \"\") then {\n_item addWeaponCargoGlobal [_iItem,1];\n};\n};\ncase \"weapon\": {\n\n_item = createVehicle "!"\"WeaponHolder\", _iPos, [], _radius, \"CAN_COLLIDE\"];\n_item addWeaponCargoGlobal [_iItem,1];\n_mags = [] + getArray (configFile >> \"cfgWeapo"!"_qty = _qty + _tQty;\n};\n};\nif (_iItem != \"\") then {\n_item addWeaponCargoGlobal [_iItem,1];\n};\n};\ncase \"weapon\": {\n\n_item = createVehicle "!"\"WeaponHolder\", _iPos, [], _radius, \"CAN_COLLIDE\"];\n_item addWeaponCargoGlobal [_iItem,1];\n_mags = [] + getArray (configFile >> \"cfgWeapo"
 1 allMissionObjects   !"{ _id = [_x,0] spawn object_roadFlare } forEach (allMissionObjects \"RoadFlare\");"  !"} forEach allMissionObjects \"SpawnableWreck\";"
 1 allowDamage   !"_object allowDamage false;"  !"player allowDamage false;"  !"player allowDamage true;"
 1 allowDammage   !"this enableSimulation false;this allowDammage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';"
 1 AlternativeInjurySimulation
 1 attachObject !"lightAttachObject"
-5 attachTo !" 0, 0.1], 0, 0, 10];\n_source setDropInterval 0.02;\n_point attachTo [_unit,_modelPos,_wound];\n\nsleep 5;\n\nwhile {((_unit getVar" !"smoke = \"#particlesource\" createVehicleLocal _pos;\n_smoke attachto [_v,[0,0,0],\"destructionEffect1\"];\n_smoke setParticleParam" !"\n_fire = \"#particlesource\" createVehicleLocal _pos;\n_fire attachto [_v,[0,0,0],\"destructionEffect2\"];\n\n\n_fire setParticlePara" !"\n_dirt = \"#particlesource\" createVehicleLocal _pos;\n_dirt attachto [_v,[0,0,0],\"destructionEffect1\"];\n_dirt setParticleParams" !"_fl = \"#particlesource\" createVehicleLocal getpos _v;\n_fl attachto [_v,[0,0,0],\"destructionEffect2\"];\n_fl setdropinterval 0.02" !"_sm = \"#particlesource\" createVehicleLocal getpos _v;\n_sm attachto [_v,[0,0,0],\"destructionEffect1\"];\n_sm setParticleRandom [" !"e = \"#particlesource\" createVehicleLocal getpos _v;\n_wave attachto [_v,[0,0,0],\"destructionEffect1\"];\n_wave setParticleRandom" !"= \"#particlesource\" createVehicleLocal getpos _v;\n_splash attachto [_v,[0,0,0],\"destructionEffect1\"];\n_splash setParticleRand" !"riation),((random (_variation * 2)) - _variation)];\n_bolt attachTo [_hitObject,_val,_hitMemoryPt];\n_dir = ([_hitObject,_unit]" !"select 3;\nplayer playActionNow \"PutDown\";\nsleep 2;\n_flare attachTo [player,[0,0,0],\"granat2\"];\n[_flare, -90, -10] call object"
+5 attachTo !" 0, 0.1], 0, 0, 10];\n_source setDropInterval 0.02;\n_point attachTo [_unit,_modelPos,_wound];\n\nsleep 5;\n\nwhile {((_unit getVar" !"smoke = \"#particlesource\" createVehicleLocal _pos;\n_smoke attachto [_v,[0,0,0],\"destructionEffect1\"];\n_smoke setParticleParam" !"\n_fire = \"#particlesource\" createVehicleLocal _pos;\n_fire attachto [_v,[0,0,0],\"destructionEffect2\"];\n\n\n_fire setParticlePara" !"\n_dirt = \"#particlesource\" createVehicleLocal _pos;\n_dirt attachto [_v,[0,0,0],\"destructionEffect1\"];\n_dirt setParticleParams" !"_fl = \"#particlesource\" createVehicleLocal getpos _v;\n_fl attachto [_v,[0,0,0],\"destructionEffect2\"];\n_fl setdropinterval 0.02" !"_sm = \"#particlesource\" createVehicleLocal getpos _v;\n_sm attachto [_v,[0,0,0],\"destructionEffect1\"];\n_sm setParticleRandom [" !"e = \"#particlesource\" createVehicleLocal getpos _v;\n_wave attachto [_v,[0,0,0],\"destructionEffect1\"];\n_wave setParticleRandom" !"= \"#particlesource\" createVehicleLocal getpos _v;\n_splash attachto [_v,[0,0,0],\"destructionEffect1\"];\n_splash setParticleRand" !"riation),((random (_variation * 2)) - _variation)];\n_bolt attachTo [_hitObject,_val,_hitMemoryPt];\n_dir = ([_hitObject,_unit]" !"select 3;\nplayer playActionNow \"PutDown\";\nsleep 2;\n_flare attachTo [player,[0,0,0],\"granat2\"];\n[_flare, -90, -10] call object" !"g = [_dragee];\npublicVariable \"PVDZ_drg_RaDrag\";\n\n_dragee attachto [_unit,[0.1, 1.01, 0]];\nsleep 0.02;\n\n\n\n\n_dragee setDir 180"
 5 BattleFieldClearance
 1 BIS_ !"{\n									BIS_" !" !"(isnil 'BIS_" !BIS_Effects_ !BIS_DEBUG_MPF !BIS_fnc_isPosBlacklisted !BIS_fnc_inTrigger !"\"BIS_Lock_Hangar\"" !"'BIS_CPP_Muzzle_Init'" !"'BIS_InfoText'" !BIS_PathMPscriptCommands !BIS_functions_mainscope !BIS_DEBUG_MPF_SERVERORCLIENT !BIS_fnc_areEqual !BIS_fnc_dirTo !BIS_fnc_distance2D !BIS_fnc_findSafePos !bis_fnc_flies !BIS_fnc_inAngleSector !BIS_fnc_infoText !bis_fnc_init !BIS_fnc_invAdd !BIS_fnc_invSlotsEmpty !BIS_fnc_invSlotType !BIS_fnc_listPlayers !BIS_fnc_randomInt !BIS_fnc_relativeDirTo !BIS_fnc_selectRandom !bis_fnc_setpitchbank !BIS_fnc_vectorDiff !BIS_GC_trashItFunc !BIS_loadingScreen !BIS_MPF_InitDone !BIS_MPF_remoteExecutionServer !BIS_PathMPscriptCommandsCustom !BIS_TK_CIV
 1 BIS_Effects_ !BIS_Effects_AirDestructionStage2 !BIS_Effects_Burn !BIS_Effects_globalEvent
 5 BIS_Effects_AirDestructionStage2 !"BIS_Effects_AirDestructionStage2=compile preprocessFileLineNumbers \"\ca\Data\ParticleEffects\SCRIPTS\destruction\AirDestructionStage2.sqf\";" !"BIS_Effects_AirDestructionStage2 = compile preprocessFileLineNumbers \"\z\addons\dayz_code\system\BIS_Effects\AirDestructionStage2.sqf\";" !"{\n[_this select 1, _this select 2, _this select 3] spawn BIS_Effects_AirDestructionStage2;\n};\ncase \"Burn\": {\n[_this select 1, _this select 2, _this "
 5 BIS_Effects_Burn !="addPublicVariableEventHandler {nul=(_this select 1) spawn BIS_Effects_Burn};\n};"  !".23, 0.37, 0.011, 3.750, 6, 4]; setToneMapping \"Filmic\";\n\nBIS_Effects_Burn = compile preprocessFile " !";\nif (!_fadeFire) then {\nnul = [_x,2,0,false,false] spawn BIS_Effects_Burn;\n};\n} forEach allMissionObjects \"SpawnableWreck\";" !"t 1, _this select 2, _this select 3, false, true] spawn BIS_Effects_Burn;\n};\n};\n};" !"\"\ca\Data\ParticleEffects\SCRIPTS\muzzle\flares.sqf\";\n\n\nBIS_Effects_Burn=compile preprocessFileLineNumbers \"\ca\Data\ParticleEff"
-1 BIS_Effects_globalEvent !"\nBIS_Effects_globalEvent = {" !"-0.1];\nif (local _v) then\n{\n\n\n[\"Burn\", _v, _int, _t] call BIS_Effects_globalEvent;\n[_v,_int,false] spawn BIS_Effects_Secondaries;\n};\nsleep 0" !"leep 0.05;\n\n\n\n[\"AirDestructionStage2\", _v, _int, _t] call BIS_Effects_globalEvent;\n};\n};\n" !"_v iskindof \"plane\")\nthen\n{\n\n\n[\"AirDestruction\", _v] call BIS_Effects_globalEvent;\n};\nif (_v iskindof \"tank\")\nthen\n{\n_int = (fuel _v)*(2+"
+5 BIS_Effects_globalEvent !"\nBIS_Effects_globalEvent = {" !"-0.1];\nif (local _v) then\n{\n\n\n[\"Burn\", _v, _int, _t] call BIS_Effects_globalEvent;\n[_v,_int,false] spawn BIS_Effects_Secondaries;\n};\nsleep 0" !"leep 0.05;\n\n\n\n[\"AirDestructionStage2\", _v, _int, _t] call BIS_Effects_globalEvent;\n};\n};\n" !"_v iskindof \"plane\")\nthen\n{\n\n\n[\"AirDestruction\", _v] call BIS_Effects_globalEvent;\n};\nif (_v iskindof \"tank\")\nthen\n{\n_int = (fuel _v)*(2+"
 1 buttonSetAction   !"buttonSetAction [104,\"\"];"
 1 campaignConfigFile !"_pathConfig = [configfile,campaignconfigfile,missionconfigfile] select _t"
 1 clearMagazineCargo !"rclearMagazineCargocode"  !"rclearMagazineCargocode = compile PreprocessFile (BIS_PathMPscriptCommands + 'clearMagazineCargo.sqf')"  !"apon\",\"addWeaponCargo\",\"addWPCur\",\"animate\",\"callVar\",\"clearMagazineCargo\",\"clearWeaponCargo\",\"createDiaryRecord\",\"createMarkerL"  !"\"clearMagazineCargo\","  !"rclearMagazineCargo = 'clearMagazineCargo'"  !"clearMagazineCargoGlobal _firePlace;"
@@ -206,9 +206,7 @@
 1 setUnitRecoilCoefficient
 5 setVehicleInit
 1 setVehicleAmmo
-1 setVelocity !"_vehicle setvelocity [0,0,1]" !"_v setvelocity [velocity _v select 0,velocity _v select 1,0]);" !"_v setvelocity [_xv/1.3,_yv/1.3,0]}" !"_item setvelocity [0,0,1];" !"_agent setvelocity [0, 0, 1];" !"_agent setvelocity [0,0,1];" !"player setVelocity [(velocity player select 0) + 1.5 * sin direction player, (velocity player select 1) + 1.5 * cos direction player, (velocity player select 2) + 4];" !"player setVelocity [-(_vel select 0),  -(_vel select 1),  0];"
-1 setWaypointType
-1 setWaypointVisible
+1 setVelocity !"_vehicle setvelocity [0,0,1]" !"_v setvelocity [velocity _v select 0,velocity _v select 1,0]);" !"_v setvelocity [_xv/1.3,_yv/1.3,0]}" !"_item setvelocity [0,0,1];" !"_agent setvelocity [0, 0, 1];" !"_agent setvelocity [0,0,1];" !"player setVelocity [(velocity player select 0) + 1.5 * sin direction player, (velocity player select 1) + 1.5 * cos direction player, (velocity player select 2) + 4];" !"player setVelocity [-(_vel select 0),  -(_vel select 1),  0];" !"hen\n{\n\n\n_velz=velocity _v select 2;\nif (_velz>1) then {_v setvelocity [velocity _v select 0,velocity _v select 1,0]};\n_expl=\"Hel"
 1 setWeaponReloadingTime
 1 setWeaponState
 1 setWind   !"setWind [_currentWindX, _currentWindZ, true];"
@@ -233,80 +231,80 @@
 1 weaponDirection !"_turretDir = _firer weaponDirection _weapon"  !"_turretDir = _firer weaponDirection _weapon;"
 1 weaponsTurret   !"_weapons = _vehicle weaponsTurret _turret;"
 1 worldTo !"if (_isPond) then {\n_pondPos = (_x worldToModel _playerPos) select 2;" !"_x = _pos worldToModel _new;\n_dir = _dir + (if ((_x select 1)==0) then { 0 } els" !"_relPos = _building worldToModel _point;" !"_relPos = _building worldToModel (getPosATL _unit1);"
-1 carry.sqf
-1 drag_body.sqf
-
-5 "Admin Fucker"
-5 BigFuckinBullets
+1 "compile toString"
+1 onEachFrame
+5 infiSTAR
 5 ZombieShield
+5 ProDayz
+5 @TheWarZ
+5 wuat
+5 "beeeh"
+5 "infi5TAR"
+5 "dayz-injector-menu"
+5 Shadowy_NONRE
+1 _dummyveh
+1 _minimap
+1 "\"You\""
+5 "lol\car.sqf"
+5 "_cute"
+5 "_stuff"
+5 BigFuckinBullets
 5 antiAggro_zeds
 5 zeus_star
 5 Metallica
-5 infiSTAR
 5 wasteland
 5 igodokxtt
-5 ALexc
-5 ProDayz
-5 @TheWarZ
-1 _dummyveh
-1 "_lpajd addaction spawnveh1"
-1 _minimap
-1 "{_unt1 addweapon _x} forEach _w2p3n4;"
-1 "\"You\""
-1 actualunit
-1 aList
-1 "crashList = allmissionobject"
-1 "Entities \"Air\""
-1 "ers...\""
-1 expression
-1 exstr
-1 Flare1
-1 "foreach tent"
-1 Hack-Men
-1 HaxSmokeOn
-1 "if (alive player) then { player SetDamage 1;};"
-1 "Infinite Ammo ON!"
-1 mapm
-1 mapopt
-1 mapscanrad
-1 mark_player
-1 marker_mapesp
-1 maut
-1 morphto
-1 musekeys
-1 Myscripts
-1 pathtoscrdir
-1 "player addWeapon \""
-1 "player distance nukepos"
-1 "player execVM"
-1 "publicVariable \"gprim\";"
-1 "publicVariable \"norrnRalie\""
-1 "reprflcrst"
-1 "RscConfigEditor_Main"
-1 Smokeshellpurple
-1 "switch (_topic) do"
-1 "tentList = allmissionobjects \"Land_A_tent\""
-1 "veh = \"AmmoBoxBig\" createVehicle"
-1 "vet@start.sqf"
-1 wuat
-1 "YourScript"
-5 "lol\car.sqf"
-5 "beeeh"
-5 "infi5TAR"
-5 "_cute"
-5 "_stuff"
-5 "dayz-injector-menu"
-1 aW5maVNUQVI
-5 Shadowy_NONRE
-5 dayZ_hivePipeAuth
-1 server_hiveReadWrite
-5 "publicVariable \"gprim\""
-1 "compile toString"
-1 " 44"
-1 ",44"
-1 "	44"
-1 "\n44"
-1 onEachFrame
+
+// 5 "Admin Fucker"
+// 1 carry.sqf
+// 1 drag_body.sqf
+// 5 ALexc
+// 1 "_lpajd addaction spawnveh1"
+// 1 "{_unt1 addweapon _x} forEach _w2p3n4;"
+// 1 actualunit
+// 1 aList
+// 1 "crashList = allmissionobject"
+// 1 "Entities \"Air\""
+// 1 "ers...\""
+// 1 expression
+// 1 exstr
+// 1 Flare1
+// 1 "foreach tent"
+// 1 Hack-Men
+// 1 HaxSmokeOn
+// 1 "if (alive player) then { player SetDamage 1;};"
+// 1 "Infinite Ammo ON!"
+// 1 mapm
+// 1 mapopt
+// 1 mapscanrad
+// 1 mark_player
+// 1 marker_mapesp
+// 1 maut
+// 1 morphto
+// 1 musekeys
+// 1 Myscripts
+// 1 pathtoscrdir
+// 1 "player addWeapon \""
+// 1 "player distance nukepos"
+// 1 "player execVM"
+// 1 "publicVariable \"gprim\";"
+// 1 "publicVariable \"norrnRalie\""
+// 1 "reprflcrst"
+// 1 "RscConfigEditor_Main"
+// 1 Smokeshellpurple
+// 1 "switch (_topic) do"
+// 1 "tentList = allmissionobjects \"Land_A_tent\""
+// 1 "veh = \"AmmoBoxBig\" createVehicle"
+// 1 "vet@start.sqf"
+// 1 "YourScript"
+// 1 aW5maVNUQVI
+// 5 dayZ_hivePipeAuth
+// 1 server_hiveReadWrite
+// 5 "publicVariable \"gprim\""
+// 1 " 44"
+// 1 ",44"
+// 1 "	44"
+// 1 "\n44"
 //1 cursorTarget !_cursorTarget !"dayz_myCursorTarget" !"_object = cursorTarget;"  !"if (inflamed cursorTarget and _hasRawMeat and _canDo) then {"  !"_unit =   cursorTarget;"  !"ursorTarget) and _isVehicle and !_isMan and _hasToolbox and (damage cursorTarget < 1)) then {"  !"ursorTarget >= 2) and (count (crew cursorTarget))== 0 and ((vectorUp cursorTarget) select 2) < 0.5) then {"  !"t = cursorTarget isKindOf \"TentStorage\";"  !"_isVehicle = cursorTarget isKindOf \"AllVehicles\";"  !"if(cursorTarget == dayz_hasFire and _canDo) then {"  !"if (!isNull cursorTarget and !dayz_heartBeat) then {"  !"_menClose = cursorTarget;"
 //1 damage !_damage !setdamage !"\"HandleDamage\"" !allowDamage
 //1 dammage !allowDammage
@@ -323,3 +321,6 @@
 //1 setMarkerType !setMarkerTypeLocal
 //1 setMarkerTypeLocal
 //1 lnbAddColumn
+//1 setWaypointType
+//1 setWaypointVisible
+
