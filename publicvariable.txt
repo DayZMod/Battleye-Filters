@@ -35,8 +35,8 @@
 1="PVDZ_Server_changeOwner"
 1="PVDZ_Server_Simulation"
 //1="PVDZ_veh_Save"
-1="PVDZ_receiveVar" 
-1="PVDZ_serverStoreVar" 
+//1="PVDZ_receiveVar" // insane spam
+//1="PVDZ_serverStoreVar" // spam
 //1="PVDZ_veh_SF"
 
 ////////////////////////// Unicast PV Client<-
