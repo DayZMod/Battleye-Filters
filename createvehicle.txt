@@ -12,9 +12,9 @@
 1 "40mm" !="G_40mm_HE" !="G_40mm_Smoke" !="F_40mm_White" !="F_40mm_Green"
 
 // log explosions (optional)
-//1=SmallSecondary
-//1=HelicopterExploSmall
-//1=HelicopterExploBig
+1=SmallSecondary
+1=HelicopterExploSmall
+1=HelicopterExploBig
 
 // log box (optional)
 //1=MedBox0
@@ -38,14 +38,14 @@
 //1=WeaponHolder_PartWheel
 
 // log character creation (optional)
-//1=Bandit1_DZ 
-//1=BanditW1_DZ
-//1=Camo1_DZ 
-//1=Sniper1_DZ 
-//1=Survivor1_DZ 
-//1=Survivor2_DZ 
-//1=Survivor3_DZ 
-//1=SurvivorW2_DZ 
+1=Bandit1_DZ 
+1=BanditW1_DZ
+1=Camo1_DZ 
+1=Sniper1_DZ 
+1=Survivor1_DZ 
+1=Survivor2_DZ 
+1=Survivor3_DZ 
+1=SurvivorW2_DZ 
 
 
 //not in dayz 1.7.7.1
