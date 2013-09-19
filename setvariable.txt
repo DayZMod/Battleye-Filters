@@ -1,6 +1,8 @@
 5 !"USEC_" !"NORRN_" !"hit_" !=BIS_greetedPeople !=actionSet !=agentObjectCamps !=armed !=banditKills !=BIS_noCoreConversations !=characterID !=claimed !=combattimeout !=deathType !=doLoiter !=firedDamage !=firedHit !=freeTarget !=headShots !=hitRegistered !=humanity !=humanKills !=lastPos !=looted !=meatHarvested !=medForceUpdate !=messing !=myDest !=owner !=posForceUpdate !=remotetargets !=temperature !=unconsciousTime !=updatePlayer !=zombieKills !=zombieSpawn
 5 "USEC_" !=USEC_BloodQty !=USEC_infected !=USEC_injured !=USEC_inPain !=USEC_isCardiac !=USEC_isDead !=USEC_lowBlood !=USEC_Sepsis
 5 "NORRN_" !="NORRN_LoadVcl" !="NORRN_unconscious" !="NORRN_unit_dragged"
+1 "hit_" !=hit_Pelvis !=hit_aimpoint !=hit_lelbow !=hit_relbow !=hit_RightFoot !=hit_LeftFoot !=hit_neck !=hit_pilot !=hit_hands !=hit_legs !=hit_elektronika !=hit_engine !=hit_fueltank !=hit_glass1 !=hit_glass2 !=hit_glass3 !=hit_glass4 !=hit_glass5 !=hit_glass6 !=hit_karoserie !="hit_l svetlo" !="hit_mala vrtule" !=hit_motor !=hit_munice !=hit_netrup !=hit_palivo !="hit_pravy predni tlumic" !="hit_pravy zadni tlumic" !="hit_p svetlo" !="hit_sklo predni l" !="hit_sklo predni p" !="hit_svetlo l" !=hit_telo !="hit_velka vrtule" !=hit_wheel_1_1_steering !=hit_wheel_1_2_steering !=hit_wheel_1_3_steering !=hit_wheel_1_4_steering !=hit_wheel_1_damper !=hit_wheel_2_1_steering !=hit_wheel_2_2_steering !=hit_wheel_2_3_steering !=hit_wheel_2_4_steering !=hit_wheel_2_damper
+
 
 //1="USEC_BloodQty"
 1="USEC_infected"
