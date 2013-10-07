@@ -1,4 +1,4 @@
-5 !"USEC_" !"NORRN_" !"hit_" !=actionSet !=agentObjectCamps !=armed !=banditKills !=BIS_noCoreConversations !=characterID !=claimed !=combattimeout !=deathType !=doLoiter !=firedDamage !=firedHit !=freeTarget !=headShots !=hitRegistered !=humanity !=humanKills !=lastPos !=looted !=meatHarvested !=medForceUpdate !=messing !=myDest !=owner !=posForceUpdate !=remotetargets !=temperature !=unconsciousTime !=updatePlayer !=zombieKills !=zombieSpawn
+5 !"USEC_" !"NORRN_" !"hit_" !=totaldmg !=actionSet !=agentObjectCamps !=armed !=banditKills !=BIS_noCoreConversations !=characterID !=claimed !=combattimeout !=deathType !=doLoiter !=firedDamage !=firedHit !=freeTarget !=headShots !=hitRegistered !=humanity !=humanKills !=lastPos !=looted !=meatHarvested !=medForceUpdate !=messing !=myDest !=owner !=posForceUpdate !=remotetargets !=temperature !=unconsciousTime !=updatePlayer !=zombieKills !=zombieSpawn
 5 "USEC_" !=USEC_BloodQty !=USEC_infected !=USEC_injured !=USEC_inPain !=USEC_isCardiac !=USEC_isDead !=USEC_lowBlood !=USEC_Sepsis
 5 "NORRN_" !="NORRN_LoadVcl" !="NORRN_unconscious" !="NORRN_unit_dragged"
 
