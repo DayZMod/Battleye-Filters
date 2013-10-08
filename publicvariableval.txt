@@ -327,7 +327,7 @@
 5 world_isday
 5 world_sunrise
 5 world_surfacenoise
-5 zombie !zombieSpawn !ZombieStandingAttack !ZombieFeed
+//5 zombie !zombieSpawn !ZombieStandingAttack !ZombieFeed
 // 
 // //////////////////////// GV and functions from DayZ Mod:
 // /////////////////////////// Illegal chars:
