@@ -1,5 +1,5 @@
 5 !="remExField" !="remExFP" !="drn_AskServerDynamicWeatherEventArgs" !="BIS_effects_gepv" !="dayzLoad" !"PVDZ_" 
-5 PVDZ_ !="PVDZ_obj_Delete" !="PVDZ_obj_Publish" !="PVDZ_plr_Death" !="PVDZ_plr_Discorem" !="PVDZ_plr_Login1" !="PVDZ_plr_Login2" !="PVDZ_plr_LoginRecord" !="PVDZ_plr_Save" !="PVDZ_sec_atp" !="PVDZ_send" !="PVDZ_Server_changeOwner" !="PVDZ_Server_Simulation" !="PVDZ_veh_Save" !="PVDZ_receiveVar" !="PVDZ_serverStoreVar" !="PVDZ_veh_SF" !="PVDZ_hlt_Bleed" !="PVDZ_obj_RoadFlare" !="PVDZ_drg_RaDrag" !="PVDZ_drg_RaLW" !="PVDZ_drg_RLact"
+5 PVDZ_ !="PVDZ_obj_Delete" !="PVDZ_obj_Publish" !="PVDZ_plr_Death" !="PVDZ_plr_Discorem" !="PVDZ_plr_Login1" !="PVDZ_plr_Login2" !="PVDZ_plr_LoginRecord" !="PVDZ_plr_Save" !="PVDZ_sec_atp" !="PVDZ_send" !="PVDZ_Server_changeOwner" !="PVDZ_Server_Simulation" !="PVDZ_veh_Save" !="PVDZ_receiveVar" !="PVDZ_serverStoreVar" !="PVDZ_veh_SF" !="PVDZ_hlt_Bleed" !="PVDZ_obj_RoadFlare" !="PVDZ_drg_RaDrag" !="PVDZ_drg_RaLW" !="PVDZ_drg_RLact" !="PVDZ_objgather_Delete"
 
 ////////////////////////// From server only: Broadcast PV without EH (no code executed on change)
 5="drn_var_DynamicWeather_rain"  
