@@ -33,10 +33,10 @@
 //1="PVDZ_sec_atp"
 1="PVDZ_send"
 1="PVDZ_Server_changeOwner"
-1="PVDZ_Server_Simulation"
+//1="PVDZ_Server_Simulation" // very verbose
 //1="PVDZ_veh_Save"
 1="PVDZ_receiveVar" 
-1="PVDZ_serverStoreVar" 
+//1="PVDZ_serverStoreVar"  // verbose
 //1="PVDZ_veh_SF"
 
 ////////////////////////// Unicast PV Client<-
