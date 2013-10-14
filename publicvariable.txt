@@ -45,7 +45,7 @@
 5="PVCDZ_hlt_Morphine"
 5="PVCDZ_hlt_PainK"
 5="PVCDZ_hlt_Transfuse"
-5="PVCDZ_obj_GutBody"
+1="PVCDZ_obj_GutBody"
 5="PVCDZ_obj_HideBody"
 5="PVCDZ_plr_Humanity"
 5="PVCDZ_plr_Login"
