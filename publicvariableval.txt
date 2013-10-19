@@ -11,7 +11,7 @@
 5 ",str"
 5 ";"
 5 ".sqf\"]" !="init.sqf\"]"
-5 "'"
+//5 "'"
 5 "'exec"
 5 "'set"
 5 "'str"
@@ -327,7 +327,7 @@
 5 world_isday
 5 world_sunrise
 5 world_surfacenoise
-5 zombie !zombieSpawn !ZombieStandingAttack
+// 5 zombie !zombieSpawn !ZombieStandingAttack !ZombieFeed
 // 
 // //////////////////////// GV and functions from DayZ Mod:
 // /////////////////////////// Illegal chars:

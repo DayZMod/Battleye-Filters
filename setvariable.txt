@@ -89,15 +89,15 @@
 1=meatHarvested
 //1=medForceUpdate
 //1=messing
-1=myDest
+//1=myDest // very verbose
 //1=owner
 //1=posForceUpdate
-1=remotetargets
+//1=remotetargets // very verbose
 //1=temperature
 //1=unconsciousTime
 1=updatePlayer
 1=zombieKills
-1=zombieSpawn
+//1=zombieSpawn // very verbose
 
 /////////////////////////// Illegal chars:
 5 "+"
