@@ -1,7 +1,7 @@
 1 "" !"Parachute" !"_DZ" !"DZ_" !"z_" !"WeaponHolder" !"Cow" !"Box" !"Smoke" !"Chem" !"40mm" !="CZ_VestPouch_EP1" !="R_M136_AT" !="SeaGull" !="SmallSecondary" !="StashSmall" !="TentStorage" !="HelicopterExploSmall" !=HelicopterExploBig" !="Wire_cat1" !="JackDaniels" !="TinCan" !="SodaCan" !="RoadFlare" !="WoodenArrowF" !="zZombie_Base" !="WildBoar" !="Rabbit" !="Sheep" !="Goat" !="Hen"
 5 "SeaGull" //set to its own line so we know which kick we have here with out looking in the logs
 5 "Chem" !="ChemGreen" !="ChemRed" !="ChemBlue"
-1 "Smoke" !"40mm" !="SmokeShell" !="SmokeShellRed" !="SmokeShellGreen"
+1 "Smoke" !"40mm" !="SmokeShell" !="SmokeShellRed" !="SmokeShellGreen" !="SmokeShellYellow"
 1 "Cow" !="Cow01" !="Cow02" !="Cow03" !="Cow04"
 1 "z_" !"CZ_" !"DZ_" !="z_villager1" !="z_new_villager2" !="z_villager2" !="z_new_villager3" !="z_villager3" !="z_new_villager4" !="z_worker1" !="z_new_worker2" !="z_worker2" !="z_new_worker3" !="z_worker3" !="z_new_worker4" !="z_teacher" !="z_hunter" !="z_suit1" !="z_suit2" !="z_soldier" !="z_soldier_pilot" !="z_soldier_heavy" !="z_policeman" !="z_doctor" !="z_priest"
 1 "WeaponHolder" !="WeaponHolder" !=WeaponHolder_ItemCamoNet !=WeaponHolder_ItemCrowbar !=WeaponHolder_ItemFuelcan !=WeaponHolder_ItemHatchet !=WeaponHolder_ItemJerrycan !=WeaponHolder_ItemTent !=WeaponHolder_MeleeBaseBallBat !=WeaponHolder_MeleeBaseBallBatNails !=WeaponHolder_MeleeBatBarbed !=WeaponHolder_MeleeMachete !=WeaponHolder_PartEngine !=WeaponHolder_PartFueltank !=WeaponHolder_PartGeneric !=WeaponHolder_PartGlass !=WeaponHolder_PartVRotor !=WeaponHolder_PartWheel

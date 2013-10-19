@@ -1,6 +1,7 @@
-5 !"USEC_" !"NORRN_" !"hit_" !=totaldmg !=actionSet !=agentObjectCamps !=armed !=banditKills !=BIS_noCoreConversations !=characterID !=claimed !=combattimeout !=deathType !=doLoiter !=firedDamage !=firedHit !=freeTarget !=headShots !=hitRegistered !=humanity !=humanKills !=lastPos !=looted !=meatHarvested !=medForceUpdate !=messing !=myDest !=owner !=posForceUpdate !=remotetargets !=temperature !=unconsciousTime !=updatePlayer !=zombieKills !=zombieSpawn
+5 !"USEC_" !"NORRN_" !"BIS_" !"hit_" !=totaldmg !=actionSet !=agentObjectCamps !=armed !=banditKills !=BIS_noCoreConversations !=characterID !=claimed !=combattimeout !=deathType !=doLoiter !=firedDamage !=firedHit !=freeTarget !=headShots !=hitRegistered !=humanity !=humanKills !=lastPos !=looted !=meatHarvested !=medForceUpdate !=messing !=myDest !=owner !=posForceUpdate !=remotetargets !=temperature !=unconsciousTime !=updatePlayer !=zombieKills !=zombieSpawn
 5 "USEC_" !=USEC_BloodQty !=USEC_infected !=USEC_injured !=USEC_inPain !=USEC_isCardiac !=USEC_isDead !=USEC_lowBlood !=USEC_Sepsis
 5 "NORRN_" !="NORRN_LoadVcl" !="NORRN_unconscious" !="NORRN_unit_dragged"
+5 "BIS_" !=bis_greetedbyevil !=bis_greetedbylanguages !=bis_greetedbypeople !=bis_greetedbytimes !=bis_greetedlanguages !=bis_greetedpeople !=bis_greetedtimes
 
 //1="USEC_BloodQty"
 1="USEC_infected"
@@ -11,11 +12,17 @@
 //1="USEC_lowBlood"
 1=USEC_Sepsis
 
-
 //1="NORRN_LoadVcl"
 //1="NORRN_unconscious"
 //1="NORRN_unit_dragged"
 
+1=bis_greetedbyevil
+1=bis_greetedbylanguages
+1=bis_greetedbypeople
+1=bis_greetedbytimes
+1=bis_greetedlanguages
+1=bis_greetedpeople
+1=bis_greetedtimes
 
 ////////////////////////// Bleeding Limbs:
 1="hit_Pelvis"
