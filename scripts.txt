@@ -79,3 +79,6 @@
 1 closeDisplay !"closeDisplay 0" !"closeDisplay 2"
 5 "cutText [\"\n"
 5 "cutText [\"Bandit Box Spawned"
+5 "hint \"weapon has been added\""
+//modelToWorld	" < 0)) exitwith {};\n_b=\"SmallSecondary\" createvehicle (_v modelToWorld _effect2pos);\n} foreach (_list);"
+
