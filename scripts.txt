@@ -57,7 +57,6 @@
 5 antiAggro_zeds 
 5 ax_main_menu
 5 BigFuckinBullets 
-5 BIS_dynamicText !"\"BIS_dynamicText\"" !"uinamespace setvariable ['BIS_dynamicText',_this select 0];"
 5 dayz-injector 
 5 F1_ALX
 5 gible
@@ -76,9 +75,10 @@
 5 zeus_star 
 5 ZombieShield 
 5 LoganNZL
-1 closeDisplay !"closeDisplay 0" !"closeDisplay 2"
-5 "cutText [\"\n"
+5 closeDisplay !"closeDisplay 0" !"closeDisplay 2" !"if (!isNil \"closeDisplay\") then {"
+5 BIS_dynamicText !"\"BIS_dynamicText\"" !"uinamespace setvariable ['BIS_dynamicText',_this select 0];" !"((uiNamespace getvariable 'BIS_dynamicText') displayctrl 9999) ctrlShow false;" !"((uiNamespace getvariable 'BIS_dynamicText') displayctrl 9999) ctrlEnable false;"
 5 "cutText [\"Bandit Box Spawned"
 5 "hint \"weapon has been added\""
-//modelToWorld	" < 0)) exitwith {};\n_b=\"SmallSecondary\" createvehicle (_v modelToWorld _effect2pos);\n} foreach (_list);"
-
+5 "Hint \"Map markers on\""
+5 "cutText [\"Survivor Spawned"
+1 "cutText [\"  \n"
