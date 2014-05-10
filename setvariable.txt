@@ -13,7 +13,7 @@
 //1=hit_telo // ancient plane AN2
 
 1 USEC_
-//1=characterID
+1=characterID
 //1=actionSet
 //1=agentObjectCamps
 //1=armed
