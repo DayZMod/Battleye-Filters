@@ -11,9 +11,9 @@
 1 ctrlSetPosition  !"os select 0) + 2;\n_posY = (_pos select 1) + 2;\n_control ctrlSetPosition [_posX, _posY]; \n_control ctrlCommit 0;\n\n_control ctrlSe" !"_old - SafeZoneY;																													\n_control ctrlSetPosition [0, (_y + _deltaY)];																													\n_contr" !"_disp_ctrl ctrlSetPosition [_posX, _posY];  \n};	\n_controlsBuffer set [_x, _disp_ctr" !" ((ctrlPosition _delayControl) select 1);\n_delayControl ctrlSetPosition [0, _pos];\n_delayControl ctrlCommit _this;\nwhile {!(ctrl" !"ame\"), _itemMsg];\n_lines = _lines + 2.25;\n};\n};\n\n_control ctrlSetPosition [_controlPos select 0, _controlPos select 1, _controlPos s" !" then {vehicle player switchCamera \"INTERNAL\";};\n_ctrl1 ctrlSetPosition [(_ctrl1Pos select 0),(_ctrl1Pos select 1),(_ctrl1Pos se" !"];\n\n\n\n_group ctrlShow true;\nctrlSetFocus _group;\n_group ctrlSetPosition _pos;\n_group ctrlCommit 0;\n};" !"pPos = ctrlPosition _control;\n_grpPos set [3,0];\n_control ctrlSetPosition _grpPos;\n_control ctrlShow false;\n_control ctrlCommit 0;\n}" !"!(true)and!(true))then{(findDisplay 5100 displayCtrl 79)ctrlSetPosition[1.0+((SafeZoneW-1.0)/2)-0.025-0.2735,0.0-((SafeZoneH-1.0" !"[2,_w]};\nif (_h != -1) then {_pos set [3,_h]};\n_control ctrlsetposition _pos;\n_control ctrlsetstructuredtext parsetext _text;\n_c"
 1 cutText !"cutText [\"\"," !"cutText [format[\"" !"cutText [format[localize" !"cutText [format [localize" !"cutText [format[(localize" !"cutText[format[(localize" !"cutText [(localize" !"cutText [localize" !"cutText[(localize" !"cutText[localize"   !">> \"CfgMagazines\" >> _itemOut >> \"displayName\"), _r, _l];\ncutText [_string, \"PLAIN DOWN\"];\n};\n\nif (_r < 1) then {\n\n_plant se" !" = format[localize \"str_success_gutted_animal\",_text,_qty];\ncutText [_string, \"PLAIN DOWN\"];\n};" !"cutText [\"You can't carry two primary weapons at the same time!\"" !"cutText [format[(\"Object is already upgrading\")] , \"PLAIN DOWN\"]" !"cutText [\"You have fixed the Hatchet.\", \"PLAIN DOWN\"]"
 1 drawIcon  !"set[count gcam_plrs,_x];};}forEach playableUnits;};{_factrl drawIcon[\"\\ca\\ui\\data\\iconhelicopter_ca.paa\",[0.7,0,1,1],visiblePosi"
-5 hint !"hintC" !"hintSilent" !"rhintcode" !"'BIS_fnc_hints'" !"'hint.sqf'" !"player_taskHint" !"rtaskHint = 'taskHint'"  !"rhint = 'hint'"  !"rhintcode = compile PreprocessFile (BIS_PathMPscriptCommands + 'hint.sqf')"  !",\"globalRadio\",\"groupChat\",\"groupRadio\",\"hideObject\",\"hint\",\"hintC\",\"kbAddTopic\",\"kbreact\",\"kbRemoveTopic\",\"kbtell\",\"land\",\"move"  !"dio\",\"hideObject\",\"hint\",\"hintC\",\"kbAddTopic\",\"kbreact\",\"kbRemoveTopic\",\"kbtell\",\"land\",\"move\",\"moveIn\",\"playAction\",\"playAction"  !"sion\",\"globalChat\",\"globalRadio\",\"groupChat\",\"groupRadio\",\"hideObject\",\"hint\",\"hintC\",\"kbAddTopic\",\"kbreact\",\"kbRemoveTopic\",\"kb"   !"\"_hint\"" !"dayz_HintMontior"
-5 hintC !"rhintcode" !"rhintCcode" !"rtaskHintcode"   !"\"hintC\","  !",\"globalRadio\",\"groupChat\",\"groupRadio\",\"hideObject\",\"hint\",\"hintC\",\"kbAddTopic\",\"kbreact\",\"kbRemoveTopic\",\"kbtell\",\"land\",\"move"  !"rhintC = 'hintC'"  !"dio\",\"hideObject\",\"hint\",\"hintC\",\"kbAddTopic\",\"kbreact\",\"kbRemoveTopic\",\"kbtell\",\"land\",\"move\",\"moveIn\",\"playAction\",\"playAction"  !"sion\",\"globalChat\",\"globalRadio\",\"groupChat\",\"groupRadio\",\"hideObject\",\"hint\",\"hintC\",\"kbAddTopic\",\"kbreact\",\"kbRemoveTopic\",\"kb"  !"rhintCcode = compile PreprocessFile (BIS_PathMPscriptCommands + 'hintC.sqf')" 
-5 hintSilent !"hintSilent \"\";" 
+ 1 hint !"hintC" !"hintSilent" !"rhintcode" !"'BIS_fnc_hints'" !"'hint.sqf'" !"player_taskHint" !"rtaskHint = 'taskHint'"  !"rhint = 'hint'"  !"rhintcode = compile PreprocessFile (BIS_PathMPscriptCommands + 'hint.sqf')"  !",\"globalRadio\",\"groupChat\",\"groupRadio\",\"hideObject\",\"hint\",\"hintC\",\"kbAddTopic\",\"kbreact\",\"kbRemoveTopic\",\"kbtell\",\"land\",\"move"  !"dio\",\"hideObject\",\"hint\",\"hintC\",\"kbAddTopic\",\"kbreact\",\"kbRemoveTopic\",\"kbtell\",\"land\",\"move\",\"moveIn\",\"playAction\",\"playAction"  !"sion\",\"globalChat\",\"globalRadio\",\"groupChat\",\"groupRadio\",\"hideObject\",\"hint\",\"hintC\",\"kbAddTopic\",\"kbreact\",\"kbRemoveTopic\",\"kb"   !"\"_hint\"" !"dayz_HintMontior"
+ 1 hintC !"rhintcode" !"rhintCcode" !"rtaskHintcode"   !"\"hintC\","  !",\"globalRadio\",\"groupChat\",\"groupRadio\",\"hideObject\",\"hint\",\"hintC\",\"kbAddTopic\",\"kbreact\",\"kbRemoveTopic\",\"kbtell\",\"land\",\"move"  !"rhintC = 'hintC'"  !"dio\",\"hideObject\",\"hint\",\"hintC\",\"kbAddTopic\",\"kbreact\",\"kbRemoveTopic\",\"kbtell\",\"land\",\"move\",\"moveIn\",\"playAction\",\"playAction"  !"sion\",\"globalChat\",\"globalRadio\",\"groupChat\",\"groupRadio\",\"hideObject\",\"hint\",\"hintC\",\"kbAddTopic\",\"kbreact\",\"kbRemoveTopic\",\"kb"  !"rhintCcode = compile PreprocessFile (BIS_PathMPscriptCommands + 'hintC.sqf')" 
+ 1 hintSilent !"hintSilent \"\";" 
 1 lbSetValue  !"ting = -1*rating(playableUnits select _y);\n_lbUsersControl lbSetValue [_x, _rating];\nif (_rating > 0) then {\n_lbUsersControl lbS"
 1 menu !_menu !commandingMenu !createMenu !BIS_fnc_kbMenu !BIS_fnc_commsMenuCreate !BIS_fnc_commsMenuToggleAvailability !BIS_fnc_commsMenuToggleVisibility !BIS_fnc_createmenu  !gear_ui_offMenu !"\"showCommandingMenu\"" !" 'BIS_fnc_commsMenu" !" 'BIS_fnc_createmenu' " !BIS_loading  !RscDisplayCraftingMenu
 1 reveal !"reveal _holder" !"DE\"];\n_stash setdir _dir;\n_stash setpos _location;\nplayer reveal _stash;\n_location = getPosATL _stash;\n\n_stash setVariable " !"\n\ndayz_clientPreload = true;\nendLoadingScreen;\n\n\n\n{player reveal _x} forEach (nearestObjects [getPosATL player, [\"AllVehicl" !"then {\ncall dayz_meleeMagazineCheck;\n};\n\n\n{player reveal _x} forEach (nearestObjects [getPosATL player, [\"AllVehicles" !"nscious and _isClose) then {\n_unit = cursorTarget;\nplayer reveal _unit;\n_vehClose = (getPosATL player) nearEntities [[\"Car\"" !"rld getPosATL player;\n_bag setdir (getDir player);\nplayer reveal _bag;\nr_action_count = 0;" !"roup _x) then {\n_group = _x;\n};\n_isLocal = (local _x);\n_x reveal [_projectile,4];\n_localtargets = _group getVariable [\"loca"  !"ssname];\npublicVariableServer \"PVDZ_obj_Publish\";\n\nplayer reveal _object;\n\nr_action_count = 0;\ncutText [format[localize \"st" !"call dayz_meleeMagazineCheck;\n\n\n{player reveal _x} forEach (nearestObjects [getPosATL player, [\"AllVehicles" !"p1_rev3al = {\n{player reveal _x} forEach (nearestObjects [getPosATL player, [\"Air\", \"Land" !"_revelArray = Dayz_plants + DayZ_GearedObjects;\n\n{player reveal _x} forEach (nearestObjects [getPosATL player" !"distance _menClose < 3)) then {\n_unit = cursorTarget;\nplayer reveal _unit;\n_vehClose = (getPosATL player) nearEntities [[\"Car\"" !"_object setDir (getDir _object);\n\nplayer reveal _object;\n\n_object setVariable [\"characterID\"" !"_fire setDir _dir;\n_fire setPos _location; \nplayer reveal _fire;\n\nif (_tool == \"Item5Matchbox\")" !"_item setdir (getDir player);\nplayer reveal _item;\n};\n\n\n[\"Working\",0,[250,25,15,0]]" !"packobj,_pos,[], 0, \"CAN_COLLIDE\"];\n_bag setdir _dir;\nplayer reveal _bag;\n\n_holder = createVehicle [\"WeaponHolder\", _pos, [], 0," !" = Dayz_plants + DayZ_GearedObjects + _revelExtras;\n\n{player reveal _x} forEach (nearestObjects [getPosATL player, _revelArray, "
@@ -30,66 +30,66 @@
 1 removeAllItems
 1 removeAllWeapons !"\"removeAllWeapons\"" !rremoveAllWeapons !rremoveAllWeaponscode !"newUnit removeMagazine _x;} forEach magazines _newUnit;\nremoveAllWeapons _newUnit;\n\n\n{\nif (typeName _x == \"ARRAY\") then {_newUni" !"\n_sm setDropInterval 1;\n\n}; \n\n_i=0;\n_dr=0.2;\n_tv=11;\n\n\n\nremoveallweapons _v;\nif((local _v) AND (_v isKindOf\"Air\") )then{\n_expl=c"
 
-5 "_logic setpos [1000,10,0]"
-5 _b0x1337
-5 _dummyveh 
-5 _minimap 
-5 "_box addBackpackCargoGlobal" 
-5 "_cute"
-5 "_lpajd addaction skin"
-5 "_stuff" 
-5 "\"You\"" 
-5 "abox1"
-5 "beeeh" 
-5 "hint '"
-5 "hint \""
-5 "hintSilent '"
-5 "hintSilent \"" !"hintSilent \"LOW FPS, PLEASE CHANGE YOUR GRAPHIC SETTINGS\"" !"hintSilent \"\";"
-5 "infi5TAR" 
-5 "lol\car.sqf" 
-5 "menu_star"
-5 "player setVehicleInit \"allUnits = [];\";"
-5 "selectedItemCountLeft = lnbText" 
-5 "SP_bindmenu"
-5 "Systems Online" 
-5 "tentList = allmissionobjects \"Land_A_tent\";"
-5 @TheWarZ 
-5 101000 
-5 action_crate1 
-5 AH_OFF_LOL
-5 ammo_norecoil
-5 antiAggro_zeds 
-5 ax_main_menu
-5 BigFuckinBullets 
-5 dayz-injector 
-5 F1_ALX
-5 gible
-5 Helltex
-5 igodokxtt 
-5 infiSTAR 
-5 MedMen 
-5 Metallica 
-5 MY_KEYDOWN_FNC
-5 myvar23
-5 ProDayz 
-5 Shadowy_NONRE 
-5 Ug8YtyGyvguGF 
-5 wasteland 
-5 wuat 
-5 zeus_star 
-5 ZombieShield 
-5 LoganNZL
-5 closeDisplay !"closeDisplay 0" !"closeDisplay 2" !"if (!isNil \"closeDisplay\") then {"
-5 "cutText [\"Bandit Box Spawned"
-5 "hint \"weapon has been added\""
-5 "Hint \"Map markers on\""
-5 "hint \"Systems Online, Binds in Help.txt\""
-5 "cutText [\"Survivor Spawned"
-5 XEH_
-5 gearAdd
-5 "useful\\"
-5 "mojanq"
-5 "freddies"
-5 "vscripts\\"
-5 AddTentsToMap
-5 bus1,bus2,bus3,bus4,bus5,bus6,bus7,bus8
+ 1 "_logic setpos [1000,10,0]"
+ 1 _b0x1337
+ 1 _dummyveh 
+ 1 _minimap 
+ 1 "_box addBackpackCargoGlobal" 
+ 1 "_cute"
+ 1 "_lpajd addaction skin"
+ 1 "_stuff" 
+ 1 "\"You\"" 
+ 1 "abox1"
+ 1 "beeeh" 
+ 1 "hint '"
+ 1 "hint \""
+ 1 "hintSilent '"
+ 1 "hintSilent \"" !"hintSilent \"LOW FPS, PLEASE CHANGE YOUR GRAPHIC SETTINGS\"" !"hintSilent \"\";"
+ 1 "infi5TAR" 
+ 1 "lol\car.sqf" 
+ 1 "menu_star"
+ 1 "player setVehicleInit \"allUnits = [];\";"
+ 1 "selectedItemCountLeft = lnbText" 
+ 1 "SP_bindmenu"
+ 1 "Systems Online" 
+ 1 "tentList = allmissionobjects \"Land_A_tent\";"
+ 1 @TheWarZ 
+ 1 101000 
+ 1 action_crate1 
+ 1 AH_OFF_LOL
+ 1 ammo_norecoil
+ 1 antiAggro_zeds 
+ 1 ax_main_menu
+ 1 BigFuckinBullets 
+ 1 dayz-injector 
+ 1 F1_ALX
+ 1 gible
+ 1 Helltex
+ 1 igodokxtt 
+ 1 infiSTAR 
+ 1 MedMen 
+ 1 Metallica 
+ 1 MY_KEYDOWN_FNC
+ 1 myvar23
+ 1 ProDayz 
+ 1 Shadowy_NONRE 
+ 1 Ug8YtyGyvguGF 
+ 1 wasteland 
+ 1 wuat 
+ 1 zeus_star 
+ 1 ZombieShield 
+ 1 LoganNZL
+ 1 closeDisplay !"closeDisplay 0" !"closeDisplay 2" !"if (!isNil \"closeDisplay\") then {"
+ 1 "cutText [\"Bandit Box Spawned"
+ 1 "hint \"weapon has been added\""
+ 1 "Hint \"Map markers on\""
+ 1 "hint \"Systems Online, Binds in Help.txt\""
+ 1 "cutText [\"Survivor Spawned"
+ 1 XEH_
+ 1 gearAdd
+ 1 "useful\\"
+ 1 "mojanq"
+ 1 "freddies"
+ 1 "vscripts\\"
+ 1 AddTentsToMap
+ 1 bus1,bus2,bus3,bus4,bus5,bus6,bus7,bus8
