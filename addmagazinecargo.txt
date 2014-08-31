@@ -26,7 +26,7 @@
 5=(15Rnd_W1866_Pellet|2000Rnd_23mm_AZP85|20Rnd_(556x45_Stanag|9x39_SP5_VSS)|300Rnd_25mm_GAU12|5Rnd_127x108_KSVK)
 5 TWS
 
-//5=AK_107_GL_Kobraf // new in 1.8.1
+//5=AK_107_GL_Kobra // new in 1.8.1
 //5=AK_107_GL_PSO // new in 1.8.1
 //5=AK_74_GL // new in 1.8.1
 //5=BAF_L85A2_RIS_ACOG_GL // new in 1.8.1
