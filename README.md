@@ -2,4 +2,5 @@ Battleye-Filters
 ================
 
 Battleye Filters
-Latest update on addweaponcargo.txt at 08/31/2014 16:23 CEST
+
+Latest update on publicvariable.txt at 09/10/2014 23:36 CEST
