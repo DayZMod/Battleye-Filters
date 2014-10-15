@@ -3,4 +3,4 @@ Battleye-Filters
 
 Battleye Filters
 
-Latest update on scripts.txt at 09/21/2014 18:30 CEST
+Latest update on scripts.txt at 10/15/2014 14:03 CEST
