@@ -3,4 +3,4 @@ Battleye-Filters
 
 Battleye Filters
 
-Latest update on scripts.txt at 22-Nov-2014 13:22 CET
+Latest update on addweaponcargo.txt at 02-Dec-2014 19:08 CET

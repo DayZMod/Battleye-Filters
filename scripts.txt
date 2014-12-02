@@ -31,6 +31,7 @@
 1 removeAllWeapons !"\"removeAllWeapons\"" !rremoveAllWeapons !rremoveAllWeaponscode !"newUnit removeMagazine _x;} forEach magazines _newUnit;\nremoveAllWeapons _newUnit;\n\n\n{\nif (typeName _x == \"ARRAY\") then {_newUni" !"\n_sm setDropInterval 1;\n\n}; \n\n_i=0;\n_dr=0.2;\n_tv=11;\n\n\n\nremoveallweapons _v;\nif((local _v) AND (_v isKindOf\"Air\") )then{\n_expl=c"
 
 1 "_logic setpos [1000,10,0]"
+1 XEH_
 5 _b0x1337
 5 _dummyveh 
 5 _minimap 
@@ -85,7 +86,6 @@
 5 "Hint \"Map markers on\""
 5 "hint \"Systems Online, Binds in Help.txt\""
 5 "cutText [\"Survivor Spawned"
-5 XEH_
 5 gearAdd
 5 "useful\\"
 5 "mojanq"
