@@ -19,7 +19,7 @@
 //1=PVDZ_plr_Login2
 1=PVDZ_plr_LoginRecord
 //1=PVDZ_plr_Save
-//1=PVDZ_sec_atp
+1=PVDZ_sec_atp
 1=PVDZ_send
 1=PVDZ_Server_changeOwner
 //1=PVDZ_Server_Simulation // very verbose
