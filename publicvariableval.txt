@@ -6,6 +6,7 @@
 1 switchmove amovpknlmstps !raswrfldnon_gear !lowwrfldnon !lowwrfldnon_amovpercmstpsraswrfldnon !lowwrfldnon_!raswrfldnon !lowwrfldnon_gear !raswpstdnon_gear !raswrfldnon !raswrfldnon_ainvpknlmstpslaywrfldnon !raswrfldnon_amovpknlmrunslowwrfldf !raswrfldnon_!lowwrfldnon
  1 switchmove suicide
  1 switchmove dancing
+5 "wrong side" // group hack, ban the first in a row 
 
 1 "(init|set|add|action|all|attach|ATL|ASL|eye|call|isNil|spawn|exec|group|unit|clear|create|menu|ctrl|display|text|hint|drop)" !"\"(SetFuel|dayzSetDate|titleText|(|with )MeleeBaseball(|Bat(|Barbed|Nails))|StashSmall|smallboat_[12]|all)\"" !"_Ball/ <ammo left:"  !"_Ball <ammo left:" !Attachement 
 1 "(entit|exit|able|find|format|fuel|damage|join|mission|frame|move|team|terminate|throw)" !"\"(switchmove|ItemFuelcan(|Empty)|damage|PartFueltank|SetFuel|z_refuel_0)\""
