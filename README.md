@@ -3,4 +3,4 @@ Battleye-Filters
 
 Battleye Filters
 
-Latest update on publicvariable.txt at 10-Jan-2015 15:24 CET
+Latest update on publicvariableval.txt at 13-Jan-2015 19:42 CET
