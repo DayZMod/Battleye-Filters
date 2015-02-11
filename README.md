@@ -3,4 +3,4 @@ Battleye-Filters
 
 Battleye Filters
 
-Latest update on waypointstatement.txt at 11-Feb-2015 19:44 CET
+Latest update on publicvariable.txt at 11-Feb-2015 20:19 CET
