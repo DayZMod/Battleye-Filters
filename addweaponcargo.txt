@@ -38,7 +38,3 @@
 //5=M107_DZ 		// temporary enabled during 1.7.6.1 -> 1.7.7
 //5=M4A1_HWS_GL   	// 1.7.7 weapon ?
 //5=M4A1_HWS_GL_SD_Camo // 1.7.7 weapon ?
-
-!=Mosin_Nagant(|_Ammo) 
-
-
