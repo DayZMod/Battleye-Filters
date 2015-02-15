@@ -3,4 +3,4 @@ Battleye-Filters
 
 Battleye Filters
 
-Latest update on addmagazinecargo.txt at 13-Feb-2015 22:34 CET
+Latest update on waypointstatement.txt at 15-Feb-2015 11:55 CET
