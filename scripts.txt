@@ -93,3 +93,4 @@
 5  AddTentsToMap
 5  bus1,bus2,bus3,bus4,bus5,bus6,bus7,bus8
 5  hoen
+5 "_btnTitle1 ctrSetText \"The British Menu\";"
