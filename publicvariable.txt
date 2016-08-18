@@ -15,7 +15,6 @@
 1=PVDZ_obj_Delete
 1=PVDZ_obj_Publish
 1=PVDZ_plr_Death
-1=PVDZ_plr_Discorem
 //1=PVDZ_plr_Login1
 //1=PVDZ_plr_Login2
 1=PVDZ_plr_LoginRecord
@@ -24,7 +23,6 @@
 1=PVDZ_send
 //1=PVDZ_Server_Simulation // very verbose
 //1=PVDZ_veh_Save // very verbose
-1=PVDZ_receiveVar 
 //1=PVDZ_serverStoreVar  // verbose
 1=PVDZ_veh_SF
 
