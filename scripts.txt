@@ -135,6 +135,6 @@
 1 "setVehicle" !="_this setVehicleInit \"this setVectorUp [0,0,1];\";"
 1 "setViewDistance"
 1 "showCommandingMenu" !"\"showCommandingMenu\", \n\"globalChat\", " !="rshowCommandingMenu = 'showCommandingMenu'" !"rshowCommandingMenucode" !"\"showCommandingMenu\", \"sideChat\","
-1 "sideLogic" !"{ \nBIS_MPF_ServerInitDone = true;\ncreatecenter sidelogic;\nBIS_MPF_dummygroup = createGroup sideLogic;"
+1 "sideLogic" !"{ \nBIS_MPF_ServerInitDone = true;\ncreatecenter sidelogic;\nBIS_MPF_dummygroup = createGroup sideLogic;" !"{ \nBIS_MPF_ServerInitDone = true;\ncreatecenter sidelogic;\n\n\nBIS_MPF_dummygroup = createGroup sideLogic;"
 1 "switchCamera" !"\"switchCamera\", \n\n\n\"fadeMusic\"," !="rswitchCamera = 'switchCamera'" !"rswitchCameracode" !"\"switchCamera\", \"taskHint\"," !="player switchCamera (Dayz_constructionContext select 2);"
 1 "toString" !="_skinToModel = toString (_finalArray);" !="{_textArrayTemp = _textArrayTemp + [tostring [_x]]} foreach _line;" !="_cmpt = toString _cmpt;" !="_objName = toLower(toString(_objName));" !"if (toString _hayArr != _needle) then {" !="_type = toString _typeA;" !="_anim4 = toString _anim4;" !"{(count _stance>17)}) then {toString [_stance select 17]}" !"if (isnil 'BIS_fnc_timeToString' || false) then {"
