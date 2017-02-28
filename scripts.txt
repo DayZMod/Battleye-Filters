@@ -24,7 +24,7 @@
 5 allowDammage
 5 allUnits
 5 buttonSetAction
-5 callExtension !"\"Dayz.Util\"" callExtension \"1\""
+5 callExtension !"\"Dayz.Util\" callExtension \"1\""
 5 closeDisplay !"'closeDisplay'" !"closeDisplay 0" !"closeDisplay 2" !"if (!isNil \"closeDisplay\") then {"
 5 createAgent !="_agent = createAgent [_type, _position, [], _radius, \"CAN_COLLIDE\"];" !="_agent = createAgent [_type, _Pos, [], 0, \"FORM\"];"
 5 createDialog !="_region = createDialog \"RscDisplaySpawnSelecter\";" !="_gender = createDialog 'RscDisplayGenderSelect';" !="_dialog = createDialog \"bloodTest\";" !="createDialog 'RscDisplayCraftingMenu';" !="createDialog \"DAYZ_PADLOCK\";" !"createDialog 'horde_journal_'"
