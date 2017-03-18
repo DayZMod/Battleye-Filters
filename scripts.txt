@@ -14,7 +14,7 @@
 5 allUnits
 5 attachTo !"(_variation * 2)) - _variation)];\n_bolt attachTo [_hitObject,_val,_hitMemoryPt];" !"player playActionNow \"PutDown\";\nuiSleep 2;\n_flare attachTo [player,[0,0,0],\"granat2\"];" !"tchmove \"ainjpfalmstpsnonwrfldnon_carried_still\";\n_dragee attachto [_unit,[-0.2, 0.2, 0]];" !"_source setDropInterval 0.02;\n_point attachTo [_unit,_modelPos,_wound];" !" attachto [_v,[0,0,0],\"destructionEffect" !"publicVariable \"PVDZ_drg_RaDrag\";\n\n_dragee attachto [_unit,[0.1, 1.01, 0]];" !="_l1 attachTo [_lh,[0,0,0],\"light\"];"
 5 buttonSetAction
-5 callExtension !"\"Dayz.Util\" callExtension \"1\""
+5 callExtension !"(\"dayz.util\" callExtension "
 5 closeDisplay !"'closeDisplay'" !"closeDisplay 0" !"closeDisplay 2" !"if (!isNil \"closeDisplay\") then {"
 5 createAgent !="_agent = createAgent [_type, _position, [], _radius, \"CAN_COLLIDE\"];" !="_agent = createAgent [_type, _Pos, [], 0, \"FORM\"];"
 5 createDialog !="_region = createDialog \"RscDisplaySpawnSelecter\";" !="_gender = createDialog 'RscDisplayGenderSelect';" !="_dialog = createDialog \"bloodTest\";" !="createDialog 'RscDisplayCraftingMenu';" !="createDialog \"DAYZ_PADLOCK\";" !"createDialog 'horde_journal_"
