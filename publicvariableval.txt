@@ -1,7 +1,7 @@
 //new
 5 "[;{(&%]"
 5 "\+" !"e\+0"
-5 "(directSay|radio)"
+5 "(commandRadio|directSay|globalRadio|groupRadio|sideRadio|vehicleRadio)"
 1 "wrong side" // group hack, ban the first in a row
 1 switchmove !aidlpercmstps !amovpercm !amovpknlmstps !ZombieStandingAttac aidlpknlmstpsnonwnondnon_player_idlesteady01 aidlpknlmstpsnonwnondnon_player_idlesteady02 aidlpknlmstpsnonwnondnon_player_idlesteady03 ainvpknlmstpslaywrfldnon_1 ainvpknlmstpslaywrfldnon_amovpknlmstpsraswrfldnon ainvpknlmstpsnonwnondnon_3 amovpknlmrunsnonwnondf amovpknlmrunsraswrfldf amovpknlmrunsraswrfldfl amovpknlmwlksraswrfldf amovppnemstpsnonwnondnon amovppnemstpsraswrfldnon
 1 switchmove aidlpercmstps !nonwnondnon_player_idlesteady0[1234] !raswrfldnon_aiming0[12] !raswrfldnon_idlesteady0[1234] !raswpstdnon_player_idlesteady0[123] !lowwrfldnon_player_0s
