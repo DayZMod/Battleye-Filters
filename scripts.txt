@@ -19,12 +19,12 @@
 5 createUnit !="_newUnit = _group createUnit [_class,respawn_west_original,[],0,\"NONE\"];" !="BIS_MPF_logic = BIS_MPF_dummygroup createUnit [\"Logic\", [1000,10,0], [], 0, \"NONE\"];"
 5 createVehicleLocal !="_object = (_x select 1) createVehicleLocal [0,0,0];" !="_plant = _x createVehicleLocal (getMarkerPos \"center\");" !="_point = \"Logic\" createVehicleLocal getPosATL _unit;" !"_object = _type createVehicleLocal [0,0,0];" !="_obj = _class createVehicleLocal (getMarkerpos \"respawn_west\");" !" = \"#lightpoint\" createVehicleLocal " !" = \"#particlesource\" createVehicleLocal " !="_object = _ghost createVehicleLocal getMarkerpos \"respawn_west\";" !="_cursorTarget = _upgrade createVehicleLocal getMarkerpos \"respawn_west\";" !="_para = \"ParachuteWest\" createVehicleLocal [0,0,0];"
 5 ctrlAddEventHandler
-5 ctrlRemoveAllEventHandlers
+5 ctrlRemoveAllEventHandlers !"lse\"];\n{\n(findDisplay 12) displayCtrl 51 ctrlRemoveAllEventHandlers _x;\n(findDisplay 12) displayRemoveAllEventHandlers"
 5 ctrlSetPosition !="_control ctrlSetPosition [_posX, _posY];" !"3,_h]};\n_control ctrlsetposition _pos;" !="_control ctrlSetPosition [0, (_y + _deltaY)];" !="_disp_ctrl ctrlSetPosition [_posX, _posY];" !="_control ctrlSetPosition _grpPos;" !="_group ctrlSetPosition _pos;" !="_control ctrlSetPosition [_controlPos select 0, _controlPos select 1, _controlPos select 2, 0.03921 * _lines];" !="((uiNamespace getVariable 'DAYZ_GUI_waiting') displayCtrl 1400) ctrlSetPosition _sandLevel;" !="_delayControl ctrlSetPosition [0, _pos];"
 5 cutText !"_layer cuttext [\"\",\"plain\"];\n};\nmissionnamespace" !"\n\n\n3100 cuttext [\"\",\"plain\"];" !"} else {\n16 cutText [\"\",\"PLAIN\"];" !"exitWith {\n1 cutText [localize \"" !"progress_monitor.sqf\";\n0 cutText ['','BLACK',0]"
 5 deleteMarker
 5 displayAddEventHandler
-5 displayRemoveAllEventHandlers
+5 displayRemoveAllEventHandlers !"lse\"];\n{\n(findDisplay 12) displayCtrl 51 ctrlRemoveAllEventHandlers _x;\n(findDisplay 12) displayRemoveAllEventHandlers"
 5 displaySetEventHandler
 5 enableEnvironment
 5 groupIcon
@@ -34,7 +34,7 @@
 5 lbSet !"_lbUsersControl lbSetColor [_x, [1,0,0,1]];" !"\n_control lbSetColor [_x, _color];\n};" !"_weaponsLBSetFocus" !="(_this select 0) displayCtrl 140 lbSetCurSel (profileNamespace getVariable ['streamerMode',0]);" !="(_display displayCtrl 105) lbSetColor [_i, [0.06, 0.05, 0.03, 1]];"
 5 lbSetData
 5 lbSetPicture
-5 menu !"_menu = _parent displayCtrl (1600 + _i);\n_menu ctrlShow " !="createDialog 'RscDisplayCraftingMenu';" !"BIS_fnc_commsMenu" !"BIS_fnc_kbMenu" !"BIS_fnc_createmenu" !"call gear_ui_offMenu;" !"dayz_inflame_showMenu" !"\"showCommandingMenu\", " !"rshowCommandingMenu" !"menu_"
+5 menu !",\"MenuSelected\",\"Draw\",\"VideoStop" !"_menu = _parent displayCtrl (1600 + _i);\n_menu ctrlShow " !="createDialog 'RscDisplayCraftingMenu';" !"BIS_fnc_commsMenu" !"BIS_fnc_kbMenu" !"BIS_fnc_createmenu" !"call gear_ui_offMenu;" !"dayz_inflame_showMenu" !"\"showCommandingMenu\", " !"rshowCommandingMenu" !"menu_"
 5 onMapSingleClick
 5 playableUnits !"for [{_y=0},{_y < count(playableUnits)},{_y=_y+1}] do {" !"typeName player == \"OBJECT\" && {(player in playableUnits" !"AND {((alive _x) AND {((vehicle _x) distance _obj < 150)})}} count playableUnits)}) then {" !="_local = { _unit distance _x < _dis; } count playableUnits <= 1;" !"if (!_isOk) exitWith {false};\nuiSleep 0.001;\n} forEach playableUnits;"
 5 selectPlayer !"addSwitchableUnit dayz_originalPlayer;\nsetPlayable dayz_originalPlayer;\nselectPlayer dayz_originalPlayer;" !"addSwitchableUnit _newUnit;\nsetPlayable _newUnit;\nselectPlayer _newUnit;"
