@@ -30,8 +30,8 @@
 5 groupIcon
 5 hideObject !"rhideObject" !"\"hideObject\"" !"(_x select 0) nearestObject (_x select 1) hideObject true} count [\n\n[[3"
 5 hint !", \"_postFix\"" !rhint !rtaskHint !"\"hint\", " !"\"hintC\", " !"\"taskHint\"," !"_controlHintButton ctrlSettext \"Objectives\";" !"hint (localize \"strwf" !"'BIS_fnc_hints'" !sched_planthint !"call ui_initDisplay;\nhintSilent \"\"" !"hintSilent localize \"str_player_low"
-5 lbCurSel !"_selectedUserIndex = lbCurSel _lbUsersControl;" !="profileNamespace setVariable ['streamerMode',(lbCurSel (_this select 0))];" !"_index = lbCurSel _lbcontrol;\n_selectedItem" !"_selected = lbCurSel _list;\n_classname = _list lnbData [_selected, 2];"
-5 lbSet !"_lbUsersControl lbSetColor [_x, [1,0,0,1]];" !"\n_control lbSetColor [_x, _color];\n};" !"_weaponsLBSetFocus" !="(_this select 0) displayCtrl 140 lbSetCurSel (profileNamespace getVariable ['streamerMode',0]);" !="(_display displayCtrl 105) lbSetColor [_i, [0.06, 0.05, 0.03, 1]];"
+5 lbCurSel !"_selectedUserIndex = lbCurSel _lbUsersControl;" !="profileNamespace setVariable ['statusUI',(lbCurSel (_this select 0))];" !="profileNamespace setVariable ['streamerMode',(lbCurSel (_this select 0))];" !"_index = lbCurSel _lbcontrol;\n_selectedItem" !"_selected = lbCurSel _list;\n_classname = _list lnbData [_selected, 2];"
+5 lbSet !"_lbUsersControl lbSetColor [_x, [1,0,0,1]];" !"\n_control lbSetColor [_x, _color];\n};" !"_weaponsLBSetFocus" !="(_this select 0) displayCtrl _idc lbSetCurSel (profileNamespace getVariable [_var,_default]);" !="(_display displayCtrl 105) lbSetColor [_i, [0.06, 0.05, 0.03, 1]];"
 5 lbSetData
 5 lbSetPicture
 5 menu !",\"MenuSelected\",\"Draw\",\"VideoStop" !"_menu = _parent displayCtrl (1600 + _i);\n_menu ctrlShow " !="createDialog 'RscDisplayCraftingMenu';" !"BIS_fnc_commsMenu" !"BIS_fnc_kbMenu" !"BIS_fnc_createmenu" !"call gear_ui_offMenu;" !"dayz_inflame_showMenu" !"\"showCommandingMenu\", " !"rshowCommandingMenu" !"menu_"
