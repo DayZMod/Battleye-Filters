@@ -59,7 +59,7 @@
 5 setVehicle
 5 setViewDistance
 5 sideLogic !"publicVariable \"BIS_MPF_logic\";"
-5 switchCamera !"\"switchCamera\", " !"rswitchCamera" !="player switchCamera (Dayz_constructionContext select 2);" !"player switchCamera _currentCamera;\nif (_currentWpn !="
+5 switchCamera !"\"switchCamera\", " !"rswitchCamera" !="player switchCamera (Dayz_constructionContext select 2);" !"player switchCamera _currentCamera;\nif (_currentWpn !=" !"< 150) && random 1 > 0.5) then {\n_killer switchcamera"
 5 systemChat !="systemChat format[localize \"str_missing_to_do_this\", _x];" !"systemChat (localize "
 5 title !"titleCut [\"\", \"BLACK " !"\"titleCut\", " !"\"titleText\"" !="rtitleCut = 'titleCut'" !"rtitleCutc" !="rtitleText = 'titleText'" !"rtitleTextc" !"(_missionTextListPath >> \"titles\")" !"(_display displayCtrl _titleIDC) ctrlShow false;" !"titleText [format[localize \"str_return_lobby\", _x" !",\"_titleText\"" !"localize 'STR_UI_GENDER_TITLE';\n_timeNem"
 5 toString !"_animCheck = toString ([(_animStateArray select 0),(_animStateArray select 1)" !="_skinToModel = toString (_finalArray);" !="{_textArrayTemp = _textArrayTemp + [tostring [_x]]} foreach _line;" !="_cmpt = toString _cmpt;" !="_objName = toLower(toString(_objName));" !"if (toString _hayArr != _needle) then {" !="_type = toString _typeA;" !="_anim4 = toString _anim4;" !"{(count _stance>17)}) then {toString [_stance select 17]}" !"BIS_fnc_timeToString" !"local _newline = tostring [10];"
